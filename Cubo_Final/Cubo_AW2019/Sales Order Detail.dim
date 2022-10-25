@@ -6,6 +6,32 @@
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4187" scrolltop="-5873" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12012" y="16589" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SalesOrderDetail" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3598" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00000e0e0000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="SalesLT_SalesOrderDetail" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,15 +47,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>-4187</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-5873</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -88,6 +114,34 @@
           <AttributeID>Product ID</AttributeID>
           <Name>Product ID</Name>
         </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9d9bdbee-bcb6-4dab-9701-9c659287a8aa">
+          <AttributeID>Order Qty</AttributeID>
+          <Name>Order Qty</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8b96d49f-c92d-46b1-8eb0-6b907a668add">
+          <AttributeID>Product ID 1</AttributeID>
+          <Name>Product ID 1</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="18529172-4b7f-46e3-8677-ac9250e8e2e0">
+          <AttributeID>Unit Price</AttributeID>
+          <Name>Unit Price</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c7af6111-2d88-4567-97c8-39110a13c322">
+          <AttributeID>Unit Price Discount</AttributeID>
+          <Name>Unit Price Discount</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="cc3d54f6-b520-45d1-a813-6706973fcd25">
+          <AttributeID>Line Total</AttributeID>
+          <Name>Line Total</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="48d7b14e-2a79-44e8-b312-47ca5b9f5f64">
+          <AttributeID>Rowguid</AttributeID>
+          <Name>Rowguid</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f379b508-38b0-4f21-bd47-7ba0029e3888">
+          <AttributeID>Modified Date</AttributeID>
+          <Name>Modified Date</Name>
+        </AttributeRelationship>
       </AttributeRelationships>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -123,6 +177,111 @@
       </KeyColumns>
       <OrderBy>Key</OrderBy>
       <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c2a102d1-a76a-4c9d-8c5f-29633ef68e6e">
+      <ID>Order Qty</ID>
+      <Name>Order Qty</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4bdc7146-9d16-439c-b789-273ed5c77719">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="116df1b7-bb2e-4a73-beae-7cd922203eff">
+            <TableID>SalesLT_SalesOrderDetail</TableID>
+            <ColumnID>OrderQty</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="da4bf43e-3c99-4623-b05e-451f4b6ac000">
+      <ID>Product ID 1</ID>
+      <Name>Product ID 1</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6ac9ecf9-94d7-447f-b681-c44637a4d25f">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0ddd6181-d761-45fb-9ba9-6eefa64e9306">
+            <TableID>SalesLT_SalesOrderDetail</TableID>
+            <ColumnID>ProductID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a69f0438-0e64-4322-bab7-7d3d0956c22b">
+      <ID>Unit Price</ID>
+      <Name>Unit Price</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4a63843c-a066-4471-bc22-4bc9842eb0fe">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1361c5ba-5850-41ee-9b90-1b29f7d9b55d">
+            <TableID>SalesLT_SalesOrderDetail</TableID>
+            <ColumnID>UnitPrice</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ffd18b51-f5d2-47cd-83ad-58eedcbb2166">
+      <ID>Unit Price Discount</ID>
+      <Name>Unit Price Discount</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="04c42699-628f-42b2-aae8-9cc4ab13cfe2">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="11f26526-4d5e-4d64-b208-7fd539c74a40">
+            <TableID>SalesLT_SalesOrderDetail</TableID>
+            <ColumnID>UnitPriceDiscount</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="85b2619d-b94d-4f80-be70-c054ee532867">
+      <ID>Line Total</ID>
+      <Name>Line Total</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="990a80ef-4af1-46c8-a9d1-1d63a29c1489">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8baa6b74-5260-444a-bd9b-fa4122d94d36">
+            <TableID>SalesLT_SalesOrderDetail</TableID>
+            <ColumnID>LineTotal</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d999fed7-b13c-4491-8429-b8ab452861e9">
+      <ID>Rowguid</ID>
+      <Name>Rowguid</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0a07c911-068d-481d-85ab-476ecf5ef445">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="468f4661-87da-4093-85ad-fe48fa223262">
+            <TableID>SalesLT_SalesOrderDetail</TableID>
+            <ColumnID>rowguid</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e4abba77-28a4-47f5-92f4-9a351ef67d09">
+      <ID>Modified Date</ID>
+      <Name>Modified Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7448adef-a4e3-47da-b51a-d7b5fc37ef4c">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4040b956-ed1e-4599-9650-11c1612e1e1a">
+            <TableID>SalesLT_SalesOrderDetail</TableID>
+            <ColumnID>ModifiedDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
