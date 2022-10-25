@@ -4,7 +4,7 @@
       <Name>Development</Name>
       <Options>
         <TargetServer>DESKTOP-V3R7F34</TargetServer>
-        <TargetDatabase>Cubo_AW2019</TargetDatabase>
+        <TargetDatabase>CuboFinal</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>
           <ObjectType>Current</ObjectType>

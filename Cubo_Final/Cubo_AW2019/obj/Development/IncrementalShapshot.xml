@@ -1,6 +1,6 @@
 ﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
   <Target>
-    <Database>Cubo_AW2019</Database>
+    <Database>CuboFinal</Database>
     <Server>DESKTOP-V3R7F34</Server>
     <ConnectionString>Data Source=DESKTOP-V3R7F34;Timeout=0</ConnectionString>
   </Target>
@@ -19,93 +19,72 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>L+gb+nJThCUM06UpZ4Ze80jJl6s=24/10/2022 23:36:4324/10/2022 23:35:21</TimeStamp>
+        <TimeStamp>QRx1J/0BhLcm0hG0u1XpZ2LOyeE=25/10/2022 16:54:2425/10/2022 16:47:39</TimeStamp>
         <ID>
-          <String>Adventure Works LT2019</String>
+          <String>Bike Stores</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>k2M+xOEz+WYrcowg0w/5I9v+MKE=24/10/2022 23:35:4224/10/2022 23:35:42</TimeStamp>
+        <TimeStamp>J5hX81fU2aXHS4gbuBMnvrc+ABw=25/10/2022 16:47:5125/10/2022 16:47:51</TimeStamp>
         <ID>
-          <String>Adventure Works LT2019</String>
+          <String>Bike Stores</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>MygsgBwdsQtq19Wi+b7xhCVxAis=24/10/2022 23:36:0524/10/2022 23:36:05</TimeStamp>
+        <TimeStamp>cAGfF+NRK9Rt1co59uBhXpYFTwc=25/10/2022 16:50:0125/10/2022 16:50:01</TimeStamp>
         <ID>
-          <String>Address</String>
+          <String>Brands</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>avnjbNLXGZ/WTmXAmuf3YTfJhG4=24/10/2022 23:36:0524/10/2022 23:36:05</TimeStamp>
+        <TimeStamp>nvddF8rTLclhQFFD6gT47ldA4j0=25/10/2022 16:50:1625/10/2022 16:50:16</TimeStamp>
         <ID>
-          <String>Customer</String>
+          <String>Categories</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>KwdI4SvSx8cI7qUh3s8jg+4sfEg=24/10/2022 23:36:0524/10/2022 23:36:05</TimeStamp>
+        <TimeStamp>mUDjQeDNlMy7OaKIkMknEPL2Wxw=25/10/2022 16:50:4225/10/2022 16:50:42</TimeStamp>
         <ID>
-          <String>Customer Address</String>
+          <String>Products</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>nM6mizN9RlvE84LsXHDjs5OgIgY=24/10/2022 23:36:0524/10/2022 23:36:05</TimeStamp>
+        <TimeStamp>f0WWbEOKW35FMYbBStADyaIVtSA=25/10/2022 16:51:0925/10/2022 16:51:09</TimeStamp>
         <ID>
-          <String>Product Category</String>
+          <String>Customers</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>emLx8C7w899WWZyKmxsNvLxxtko=24/10/2022 23:36:0524/10/2022 23:36:05</TimeStamp>
+        <TimeStamp>pSr1Vf9+MC5iW4jS1qYRvPwjMBE=25/10/2022 16:51:3225/10/2022 16:51:31</TimeStamp>
         <ID>
-          <String>Product Model</String>
+          <String>Orders</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>iJBjPu3YL3WANlW5UEU5eZtgDaw=24/10/2022 23:36:0524/10/2022 23:36:05</TimeStamp>
+        <TimeStamp>L2z3YXkT/iwN8/TBPgJ6OuYOLN4=25/10/2022 16:52:0525/10/2022 16:52:05</TimeStamp>
         <ID>
-          <String>Product</String>
+          <String>Staffs</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>tyQDEsVZHmSDudrWgyLJKsaWSMM=24/10/2022 23:36:0524/10/2022 23:36:05</TimeStamp>
+        <TimeStamp>GP2BeTsroP13lYMQWB6Fni9sMro=25/10/2022 16:52:2025/10/2022 16:52:20</TimeStamp>
         <ID>
-          <String>Product Description</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>sN463FEZyTd+nA7KTMvgLFXMvo4=24/10/2022 23:36:0524/10/2022 23:36:05</TimeStamp>
-        <ID>
-          <String>Product Model Product Description</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>j0wRRE8fA8qgD4NI7/jYwstkeCQ=24/10/2022 23:36:0524/10/2022 23:36:05</TimeStamp>
-        <ID>
-          <String>Sales Order Header</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>tRmfug2W4Kb5Zoqyn40DuX/Av6A=24/10/2022 23:36:0524/10/2022 23:36:05</TimeStamp>
-        <ID>
-          <String>Sales Order Detail</String>
+          <String>Stores</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>GRV+7C3v4oBDhM1NlvNrTepeTn8=24/10/2022 23:36:0524/10/2022 23:36:05e7mL4On6FjwKFN70Xx95ap2rgnQ=24/10/2022 23:36:0524/10/2022 23:36:05</TimeStamp>
+        <TimeStamp>Trj8CyifxuW6UWn7ER6ceGX1mqk=25/10/2022 16:53:3425/10/2022 16:53:34KrwTGAKVX1ZRATl1yR+YKrZb0HQ=25/10/2022 16:53:3425/10/2022 16:53:34</TimeStamp>
         <ID>
-          <String>Adventure Works LT2019</String>
+          <String>Bike Stores</String>
         </ID>
       </ObjectSnapshot>
     </ObjectSnapshots>
@@ -113,12 +92,12 @@
       <Type>Microsoft.AnalysisServices.Database</Type>
       <TimeStamp>kGVeilIbsnrATzuDYlIaqkzBUhQ=24/10/2022 23:08:0124/10/2022 23:08:01</TimeStamp>
       <ID>
-        <String>Cubo_AW2019</String>
+        <String>CuboFinal</String>
       </ID>
     </DatabaseSnapshot>
     <Granularity>Coarse</Granularity>
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2022-10-25T05:36:49.99Z</LastDeployed>
+  <LastDeployed>2022-10-25T22:54:28.866667Z</LastDeployed>
 </DeploymentSnapshot>
