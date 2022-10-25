@@ -12,6 +12,12 @@
       <FullPath>Adventure Works LT2019.ds</FullPath>
     </ProjectItem>
   </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>Adventure Works LT2019.dsv</Name>
+      <FullPath>Adventure Works LT2019.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
