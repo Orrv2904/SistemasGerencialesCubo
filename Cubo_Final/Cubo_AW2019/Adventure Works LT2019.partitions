@@ -1,17 +1,17 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b5cc799a-a914-4333-8f77-48852b845e90" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="aef5cf5d-b909-4fc7-89c4-112d2b340874" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Adventure Works LT2019</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>Address</ID>
       <Partitions>
-        <Partition dwd:design-time-name="c1be85e1-1de2-4048-b94a-3ab9da8173a0">
+        <Partition dwd:design-time-name="b1211e5f-a868-4a1c-a933-e1141f507101">
           <ID>Address</ID>
           <Name>Address</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="30779c4b-6ae8-4361-b160-9f5951f1c739">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="fa20e928-7c5a-40b7-abc9-4d407ff60998">
             <DataSourceViewID>Adventure Works LT2019</DataSourceViewID>
             <TableID>SalesLT_Address</TableID>
           </Source>
@@ -24,14 +24,14 @@
     <MeasureGroup>
       <ID>Customer</ID>
       <Partitions>
-        <Partition dwd:design-time-name="2b0e980c-3994-4a43-a4c0-71052d7583cc">
+        <Partition dwd:design-time-name="68dfea2c-774f-464a-8d08-28f625616cdd">
           <ID>Customer</ID>
           <Name>Customer</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3bde4c4e-e1bb-4299-a3b6-9bc78d5d21f3">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3e4fa154-0fc4-4f7b-b878-ac4aab9ef0f4">
             <DataSourceViewID>Adventure Works LT2019</DataSourceViewID>
             <TableID>SalesLT_Customer</TableID>
           </Source>
@@ -44,14 +44,14 @@
     <MeasureGroup>
       <ID>Customer Address</ID>
       <Partitions>
-        <Partition dwd:design-time-name="a4437ce5-f3d6-4322-aa3c-61bca7980353">
+        <Partition dwd:design-time-name="b245b555-c3b4-407e-aac8-e301e1fde5ea">
           <ID>Customer Address</ID>
           <Name>Customer Address</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="85a10292-7571-421f-8162-db016d160769">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c1f73b94-f9ca-4805-bc98-281a285c22e6">
             <DataSourceViewID>Adventure Works LT2019</DataSourceViewID>
             <TableID>SalesLT_CustomerAddress</TableID>
           </Source>
@@ -64,14 +64,14 @@
     <MeasureGroup>
       <ID>Product</ID>
       <Partitions>
-        <Partition dwd:design-time-name="4acfb317-25cf-46dc-ab7b-b8d540f679c5">
+        <Partition dwd:design-time-name="a06b3a34-5596-4685-936f-88a4fa2d7c33">
           <ID>Product</ID>
           <Name>Product</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="5e32373f-d281-44f9-b91e-c2118e48d4d5">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="84681f9b-8e95-428a-83ee-4e161cc46cfb">
             <DataSourceViewID>Adventure Works LT2019</DataSourceViewID>
             <TableID>SalesLT_Product</TableID>
           </Source>
@@ -84,14 +84,14 @@
     <MeasureGroup>
       <ID>Product Category</ID>
       <Partitions>
-        <Partition dwd:design-time-name="cee33547-1e63-4a5f-9747-0af8b7757316">
+        <Partition dwd:design-time-name="c46c87a8-a055-4b65-a3e5-d5cf0be8b0f1">
           <ID>Product Category</ID>
           <Name>Product Category</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6293b9b6-66e6-4b9c-8111-bc00b7c055c6">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e4d33bba-2a7d-4aae-99b7-a00e218985d6">
             <DataSourceViewID>Adventure Works LT2019</DataSourceViewID>
             <TableID>SalesLT_ProductCategory</TableID>
           </Source>
@@ -104,14 +104,14 @@
     <MeasureGroup>
       <ID>Product Description</ID>
       <Partitions>
-        <Partition dwd:design-time-name="81e0e1f2-9a81-4cf5-b240-a6526765b7ca">
+        <Partition dwd:design-time-name="064d5304-4a12-45b4-869c-6708fcaf6d89">
           <ID>Product Description</ID>
           <Name>Product Description</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="34070679-12bc-42fa-895d-b680bb2311d8">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e2417a6b-ab07-4bff-80af-b59ec31bfa06">
             <DataSourceViewID>Adventure Works LT2019</DataSourceViewID>
             <TableID>SalesLT_ProductDescription</TableID>
           </Source>
@@ -124,14 +124,14 @@
     <MeasureGroup>
       <ID>Product Model</ID>
       <Partitions>
-        <Partition dwd:design-time-name="03ae9569-37be-4107-a80e-ff7c7c527b6f">
+        <Partition dwd:design-time-name="68684850-3628-48b5-b0b1-38cac8baee52">
           <ID>Product Model</ID>
           <Name>Product Model</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="0c2e9bdb-b93d-49c0-bfd1-54f351ab8cef">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3a277487-bf1d-4ed3-a00c-7c3c3abb4ab7">
             <DataSourceViewID>Adventure Works LT2019</DataSourceViewID>
             <TableID>SalesLT_ProductModel</TableID>
           </Source>
@@ -144,14 +144,14 @@
     <MeasureGroup>
       <ID>Product Model Product Description</ID>
       <Partitions>
-        <Partition dwd:design-time-name="f0bf8120-b950-4ee8-b532-54c24fbf1f25">
+        <Partition dwd:design-time-name="1e3b5e19-817d-4c2f-874f-dd9ec4aef4b4">
           <ID>Product Model Product Description</ID>
           <Name>Product Model Product Description</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="faee59b6-1fb4-4b01-b33c-336bf02b18ca">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="853495a8-b9ee-486b-b572-bd6bae5da06f">
             <DataSourceViewID>Adventure Works LT2019</DataSourceViewID>
             <TableID>SalesLT_ProductModelProductDescription</TableID>
           </Source>
@@ -164,14 +164,14 @@
     <MeasureGroup>
       <ID>Sales Order Detail</ID>
       <Partitions>
-        <Partition dwd:design-time-name="18874993-0955-4bff-9e3b-11fcfa3ee720">
+        <Partition dwd:design-time-name="48bf9c84-7e91-4cc3-87d3-51d8b8f1ee4d">
           <ID>Sales Order Detail</ID>
           <Name>Sales Order Detail</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="28358e8d-eba7-4c11-95bd-9223c7634fb2">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="317575da-1acc-41a1-8985-7a5f651be7e8">
             <DataSourceViewID>Adventure Works LT2019</DataSourceViewID>
             <TableID>SalesLT_SalesOrderDetail</TableID>
           </Source>
@@ -184,14 +184,14 @@
     <MeasureGroup>
       <ID>Sales Order Header</ID>
       <Partitions>
-        <Partition dwd:design-time-name="89ae1a0b-37d5-4508-b9f1-c93e7421fafe">
+        <Partition dwd:design-time-name="14c35150-07ad-4c0e-95e5-0bf76f09d870">
           <ID>Sales Order Header</ID>
           <Name>Sales Order Header</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3b542078-4187-41f6-a96d-d2f6f28f72a4">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="bc3f3882-523f-4005-8628-30ec6f7e263a">
             <DataSourceViewID>Adventure Works LT2019</DataSourceViewID>
             <TableID>SalesLT_SalesOrderHeader</TableID>
           </Source>
