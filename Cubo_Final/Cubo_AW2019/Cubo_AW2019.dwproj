@@ -8,56 +8,68 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>Bike Stores.cube</Name>
-      <FullPath>Bike Stores.cube</FullPath>
+      <Name>Adventure Works LT2019.cube</Name>
+      <FullPath>Adventure Works LT2019.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Bike Stores.partitions</Name>
-          <FullPath>Bike Stores.partitions</FullPath>
+          <Name>Adventure Works LT2019.partitions</Name>
+          <FullPath>Adventure Works LT2019.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>Brands.dim</Name>
-      <FullPath>Brands.dim</FullPath>
+      <Name>Sales Order Header.dim</Name>
+      <FullPath>Sales Order Header.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Categories.dim</Name>
-      <FullPath>Categories.dim</FullPath>
+      <Name>Product.dim</Name>
+      <FullPath>Product.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Products.dim</Name>
-      <FullPath>Products.dim</FullPath>
+      <Name>Sales Order Detail.dim</Name>
+      <FullPath>Sales Order Detail.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Customers.dim</Name>
-      <FullPath>Customers.dim</FullPath>
+      <Name>Product Category.dim</Name>
+      <FullPath>Product Category.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Orders.dim</Name>
-      <FullPath>Orders.dim</FullPath>
+      <Name>Product Model.dim</Name>
+      <FullPath>Product Model.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Staffs.dim</Name>
-      <FullPath>Staffs.dim</FullPath>
+      <Name>Customer.dim</Name>
+      <FullPath>Customer.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Stores.dim</Name>
-      <FullPath>Stores.dim</FullPath>
+      <Name>Address.dim</Name>
+      <FullPath>Address.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Customer Address.dim</Name>
+      <FullPath>Customer Address.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Product Description.dim</Name>
+      <FullPath>Product Description.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Product Model Product Description.dim</Name>
+      <FullPath>Product Model Product Description.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
-      <Name>Bike Stores.ds</Name>
-      <FullPath>Bike Stores.ds</FullPath>
+      <Name>Adventure Works LT2019.ds</Name>
+      <FullPath>Adventure Works LT2019.ds</FullPath>
     </ProjectItem>
   </DataSources>
   <DataSourceViews>
     <ProjectItem>
-      <Name>Bike Stores.dsv</Name>
-      <FullPath>Bike Stores.dsv</FullPath>
+      <Name>Adventure Works LT2019.dsv</Name>
+      <FullPath>Adventure Works LT2019.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
   <Configurations>
@@ -66,15 +78,15 @@
       <Options>
         <ConnectionMappings>
           <ConfigurationSetting>
-            <Id>Bike Stores</Id>
-            <Name>Bike Stores</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=.;Integrated Security=SSPI;Initial Catalog=BikeStores</Value>
+            <Id>Adventure Works LT2019</Id>
+            <Name>Adventure Works LT2019</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=.;Integrated Security=SSPI;Initial Catalog=AdventureWorksLT2019</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
           <ConfigurationSetting>
-            <Id>Bike Stores</Id>
-            <Name>Bike Stores</Name>
+            <Id>Adventure Works LT2019</Id>
+            <Name>Adventure Works LT2019</Name>
             <Value xsi:type="xsd:int">0</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>
