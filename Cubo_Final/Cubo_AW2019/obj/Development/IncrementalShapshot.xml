@@ -19,91 +19,98 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>ypPapAgO0dUyZjf905gVmugWHaQ=26/10/2022 18:29:3026/10/2022 18:29:30</TimeStamp>
+        <TimeStamp>iScACG9SAA0JYT1z9q7b7jgCM34=26/10/2022 21:52:2126/10/2022 21:52:21</TimeStamp>
         <ID>
           <String>Wide World Importers</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>X6H6Xih7CvfVMwx9gNzdJsWjrnU=26/10/2022 18:44:4426/10/2022 18:44:43</TimeStamp>
+        <TimeStamp>xIIOd7w0Q351HqMEIMtmJcfd/oE=26/10/2022 22:41:3826/10/2022 22:41:37</TimeStamp>
         <ID>
           <String>Wide World Importers</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Vl0irFt5TsV2uOMv6Nl4NY69aw8=26/10/2022 18:44:5926/10/2022 18:44:59</TimeStamp>
+        <TimeStamp>2K4/OnCwJSAuk8IchPG2Sllcex8=26/10/2022 23:34:4626/10/2022 23:34:46</TimeStamp>
         <ID>
-          <String>Buying Groups</String>
+          <String>State Provinces</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>wDGjYHPno8Dll7CYFnUEvGD+C4Y=26/10/2022 18:45:3526/10/2022 18:45:35</TimeStamp>
+        <TimeStamp>EBIue56RN2xtx9qtD2YZhJHn2bs=26/10/2022 23:34:4626/10/2022 23:34:46</TimeStamp>
         <ID>
-          <String>Customer Categories</String>
+          <String>People</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>k+phheT0rK/OHnxnv3S8vg3jrR0=26/10/2022 18:45:5726/10/2022 18:45:57</TimeStamp>
+        <TimeStamp>Tqy1e7sPucqoJ3ZCmvOt+Zq2jl8=26/10/2022 23:34:4626/10/2022 23:34:46</TimeStamp>
+        <ID>
+          <String>Cities</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>hcKRe8xMjVjFoEC5Ig+89sbwdGk=26/10/2022 23:34:4626/10/2022 23:34:46</TimeStamp>
+        <ID>
+          <String>Payment Methods</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0jXlxz3sOsAaDR0IZCcGBSg9Zi8=26/10/2022 23:34:4626/10/2022 23:34:46</TimeStamp>
+        <ID>
+          <String>Countries</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>kbIuLvzkq8tX9t+fqRZJ8Ig5b/M=26/10/2022 23:34:4726/10/2022 23:34:46</TimeStamp>
         <ID>
           <String>Customers</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>RIHOv8SSW737GgzB2HeksQJxqPI=26/10/2022 18:46:1826/10/2022 18:46:17</TimeStamp>
+        <TimeStamp>YaeMlwx24ZJsLhiRWoEvouEKQ5o=26/10/2022 23:34:4726/10/2022 23:34:46</TimeStamp>
         <ID>
-          <String>Customer Transactions</String>
+          <String>Delivery Methods</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>0VBSKcAKQhxBBsRphMTt6IgR6w4=26/10/2022 18:46:3126/10/2022 18:46:31</TimeStamp>
-        <ID>
-          <String>Invoice Lines</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>AhrayBbsYATP4y4w+HnENa0tnOg=26/10/2022 18:46:4426/10/2022 18:46:44</TimeStamp>
-        <ID>
-          <String>Invoices</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>2pIDQWuIbbPuwWDIYubmnrDJZAs=26/10/2022 18:47:1226/10/2022 18:47:12</TimeStamp>
+        <TimeStamp>N6AWU77wP0wEgFyxr1DP+ChmIzw=26/10/2022 23:34:4726/10/2022 23:34:46</TimeStamp>
         <ID>
           <String>Orders</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>tzwE9M6d0GCEcHS/FN/xqQjJZ1w=26/10/2022 18:47:2326/10/2022 18:47:23</TimeStamp>
+        <TimeStamp>wdGgg2S873tKQDsp6rXnkGu/ndg=26/10/2022 23:34:4726/10/2022 23:34:46</TimeStamp>
+        <ID>
+          <String>Invoices</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>kaOSWQv8DCqVbg+ltY70qVaFq48=26/10/2022 23:34:4726/10/2022 23:34:46</TimeStamp>
+        <ID>
+          <String>Order Lines</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>eUa0yesP5ZfAe5D0sWIM83ytiFU=26/10/2022 23:34:4726/10/2022 23:34:46</TimeStamp>
         <ID>
           <String>Special Deals</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>dJiKZy6IRQ7Pn5awD7gIF44OYls=26/10/2022 18:48:2726/10/2022 18:48:27</TimeStamp>
-        <ID>
-          <String>Customer Categories 1</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>V5rY/ujQXlpPRl3M20IsMFgO5E4=26/10/2022 18:48:2726/10/2022 18:48:27</TimeStamp>
-        <ID>
-          <String>Buying Groups 1</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>BPh4cZA2Vtnz4j3GVfVWXCtE4uk=26/10/2022 18:51:1726/10/2022 18:48:27I5N7lNXM4xN5nDpMjl+H2vy+Xj4=26/10/2022 18:48:2726/10/2022 18:48:27</TimeStamp>
+        <TimeStamp>inlqL765DMizMPVl+8eYBa8HaRk=26/10/2022 23:34:4726/10/2022 23:34:46LbQze4r1t0sCIKt3YhutW3mKfdI=26/10/2022 23:34:4626/10/2022 23:34:46</TimeStamp>
         <ID>
           <String>Wide World Importers</String>
         </ID>
@@ -120,5 +127,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2022-10-27T00:51:25.216667Z</LastDeployed>
+  <LastDeployed>2022-10-27T05:34:52.766667Z</LastDeployed>
 </DeploymentSnapshot>

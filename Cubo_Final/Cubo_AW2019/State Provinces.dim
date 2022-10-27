@@ -1,6 +1,6 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="cfea9f27-52d6-49af-8b71-8170653aa49d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
-  <ID>Special Deals</ID>
-  <Name>Special Deals</Name>
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a2b975d0-2461-42eb-ad18-8c221ee7d5a2" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>State Provinces</ID>
+  <Name>State Provinces</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
   <Annotations>
@@ -42,51 +42,51 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="e7fa7777-b0f7-4adb-91f9-b62b7f12e730">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="7d6c2c53-e15a-4f48-a944-01907d1f373b">
     <DataSourceViewID>Wide World Importers</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="0f571f47-12d1-4703-bc19-aae3b4a00629">
+  <ErrorConfiguration dwd:design-time-name="671b1a96-c852-48fd-9a71-26f27319f748">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="9627e0a5-9038-4c4c-aea2-cf66dda5c0c9">
-      <ID>Special Deal ID</ID>
-      <Name>Special Deal ID</Name>
+    <Attribute dwd:design-time-name="6ee9cef7-a42b-4669-acb8-b96f0b408dd4">
+      <ID>State Province ID</ID>
+      <Name>State Province ID</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="908bbe5e-9a78-4771-a543-fd9d3b43be49">
+        <KeyColumn dwd:design-time-name="2a233d3d-fb0f-48e6-a958-4a744798341a">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="fd573d1d-f382-4962-8852-29c1de33139e">
-            <TableID>Sales_SpecialDeals</TableID>
-            <ColumnID>SpecialDealID</ColumnID>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4971bbd5-b7fc-410c-bf80-f2f30bc94169">
+            <TableID>Application_StateProvinces</TableID>
+            <ColumnID>StateProvinceID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="36d1347f-5336-402a-ae64-fc90e3631c2b">
+        <AttributeRelationship dwd:design-time-name="dfbda9c1-ca2e-4d06-98ec-40228dd75ff3">
           <AttributeID>Last Edited By</AttributeID>
           <Name>Last Edited By</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="832e249b-52d7-4c96-86a5-788639a0c545">
-          <AttributeID>Customer ID</AttributeID>
-          <Name>Customer ID</Name>
+        <AttributeRelationship dwd:design-time-name="180ef9ec-0910-4f81-aa2c-ac99d693defe">
+          <AttributeID>Country ID</AttributeID>
+          <Name>Country ID</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="8f46bb6e-9fe9-4c27-9260-7c8bb1f7d7fd">
+    <Attribute dwd:design-time-name="0d913b63-b4aa-4890-8975-b559d0071f9b">
       <ID>Last Edited By</ID>
       <Name>Last Edited By</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="b645689d-75df-4dea-af2f-62bd47c6040b">
+        <KeyColumn dwd:design-time-name="311dcd6b-8902-4b69-bfbc-6af7bfc67558">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="cb7988a0-f6e9-438c-b843-b0d9ab74c67c">
-            <TableID>Sales_SpecialDeals</TableID>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="99a20b91-54c2-4016-8939-071b48880977">
+            <TableID>Application_StateProvinces</TableID>
             <ColumnID>LastEditedBy</ColumnID>
           </Source>
         </KeyColumn>
@@ -96,15 +96,15 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="1d120c48-ca6d-4dce-9857-cf9372710752">
-      <ID>Customer ID</ID>
-      <Name>Customer ID</Name>
+    <Attribute dwd:design-time-name="78ce5774-40d6-469a-b668-87379437794e">
+      <ID>Country ID</ID>
+      <Name>Country ID</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="b48380bc-301a-414e-bb23-fbfff5dd4cbf">
+        <KeyColumn dwd:design-time-name="0b2fd493-2174-4f27-a5ea-39b157c00845">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="9d4609f2-5799-434f-93b6-37531e3ede5d">
-            <TableID>Sales_SpecialDeals</TableID>
-            <ColumnID>CustomerID</ColumnID>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2fce3e1b-461c-40b1-8bfe-36499dc27d07">
+            <TableID>Application_StateProvinces</TableID>
+            <ColumnID>CountryID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>

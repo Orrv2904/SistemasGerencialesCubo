@@ -12,34 +12,37 @@
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>Buying Groups</ID>
+        <ID>State Provinces</ID>
       </Dimension>
       <Dimension>
-        <ID>Customer Categories</ID>
+        <ID>People</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Cities</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Payment Methods</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Countries</ID>
       </Dimension>
       <Dimension>
         <ID>Customers</ID>
       </Dimension>
       <Dimension>
-        <ID>Customer Transactions</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Invoice Lines</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Invoices</ID>
+        <ID>Delivery Methods</ID>
       </Dimension>
       <Dimension>
         <ID>Orders</ID>
       </Dimension>
       <Dimension>
+        <ID>Invoices</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Order Lines</ID>
+      </Dimension>
+      <Dimension>
         <ID>Special Deals</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Customer Categories 1</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Buying Groups 1</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
@@ -47,18 +50,34 @@
         <ID>Wide World Importers</ID>
         <MeasureGroups>
           <MeasureGroup>
-            <ID>Customer Transactions</ID>
+            <ID>Cities</ID>
             <Partitions>
               <Partition>
-                <ID>Customer Transactions</ID>
+                <ID>Cities</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Invoice Lines</ID>
+            <ID>Payment Methods</ID>
             <Partitions>
               <Partition>
-                <ID>Invoice Lines</ID>
+                <ID>Payment Methods</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>State Provinces</ID>
+            <Partitions>
+              <Partition>
+                <ID>State Provinces</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Customers</ID>
+            <Partitions>
+              <Partition>
+                <ID>Customers</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
@@ -79,30 +98,6 @@
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Special Deals</ID>
-            <Partitions>
-              <Partition>
-                <ID>Special Deals</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Customers</ID>
-            <Partitions>
-              <Partition>
-                <ID>Customers</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Customer Categories</ID>
-            <Partitions>
-              <Partition>
-                <ID>Customer Categories</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
             <ID>Orders</ID>
             <Partitions>
               <Partition>
@@ -111,10 +106,34 @@
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Buying Groups</ID>
+            <ID>Special Deals</ID>
             <Partitions>
               <Partition>
-                <ID>Buying Groups</ID>
+                <ID>Special Deals</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>People</ID>
+            <Partitions>
+              <Partition>
+                <ID>People</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Delivery Methods</ID>
+            <Partitions>
+              <Partition>
+                <ID>Delivery Methods</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Countries</ID>
+            <Partitions>
+              <Partition>
+                <ID>Countries</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>

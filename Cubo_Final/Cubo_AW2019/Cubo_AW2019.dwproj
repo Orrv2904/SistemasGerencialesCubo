@@ -6,26 +6,58 @@
     <Name>Cubo_AW2019.database</Name>
     <FullPath>Cubo_AW2019.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Wide World Importers.cube</Name>
+      <FullPath>Wide World Importers.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Wide World Importers.partitions</Name>
+          <FullPath>Wide World Importers.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>Buying Groups.dim</Name>
-      <FullPath>Buying Groups.dim</FullPath>
+      <Name>State Provinces.dim</Name>
+      <FullPath>State Provinces.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Customer Categories.dim</Name>
-      <FullPath>Customer Categories.dim</FullPath>
+      <Name>People.dim</Name>
+      <FullPath>People.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cities.dim</Name>
+      <FullPath>Cities.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Payment Methods.dim</Name>
+      <FullPath>Payment Methods.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Countries.dim</Name>
+      <FullPath>Countries.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Customers.dim</Name>
       <FullPath>Customers.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Invoices.dim</Name>
-      <FullPath>Invoices.dim</FullPath>
+      <Name>Delivery Methods.dim</Name>
+      <FullPath>Delivery Methods.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Orders.dim</Name>
       <FullPath>Orders.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Invoices.dim</Name>
+      <FullPath>Invoices.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Order Lines.dim</Name>
+      <FullPath>Order Lines.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Special Deals.dim</Name>
