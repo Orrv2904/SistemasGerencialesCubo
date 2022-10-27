@@ -6,6 +6,53 @@
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="5" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4400" scrolltop="-6153" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11800" y="16007" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="People" left="20" top="0" logicalid="3" controlid="1" masterid="0" hint1="0" hint2="0" width="4260" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000a410000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Application_People" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-1280" top="-1300" logicalid="4" controlid="2" masterid="0" hint1="0" hint2="0" width="2630" height="2550" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Application_People_Application_People]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="1" sourceattachpoint="16" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="20" y="850" />
+              <point x="-980" y="850" />
+              <point x="-980" y="-1000" />
+              <point x="1050" y="-1000" />
+              <point x="1050" y="0" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,15 +68,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>-4400</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-6153</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -72,6 +119,78 @@
           <AttributeID>Last Edited By</AttributeID>
           <Name>Last Edited By</Name>
         </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8d219050-58dc-4d9d-b0da-c84dfa27dbd5">
+          <AttributeID>Full Name</AttributeID>
+          <Name>Full Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2cf4e44d-bf72-4a57-90d9-cd5ef08385fc">
+          <AttributeID>Preferred Name</AttributeID>
+          <Name>Preferred Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5a42899e-0913-453d-8e50-032eddc7ba15">
+          <AttributeID>Search Name</AttributeID>
+          <Name>Search Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e2c74c0a-0135-47a3-9532-292cad53b024">
+          <AttributeID>Is Permitted To Logon</AttributeID>
+          <Name>Is Permitted To Logon</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="31a26210-e89d-43f9-b1c0-3d0943a43f7c">
+          <AttributeID>Logon Name</AttributeID>
+          <Name>Logon Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ecbaed54-2b81-483e-96f5-14246183608c">
+          <AttributeID>Is External Logon Provider</AttributeID>
+          <Name>Is External Logon Provider</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="da5ff9a7-11f2-4cfd-93a4-4a267bb579fb">
+          <AttributeID>Is System User</AttributeID>
+          <Name>Is System User</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1a9a40cf-bff5-4411-9025-cbba593859b3">
+          <AttributeID>Is Employee</AttributeID>
+          <Name>Is Employee</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bcadda8e-c694-460c-a0e6-62f30659ed6d">
+          <AttributeID>Is Salesperson</AttributeID>
+          <Name>Is Salesperson</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3c29d5e7-e13d-4eb7-a4bf-4810a47ef0a3">
+          <AttributeID>User Preferences</AttributeID>
+          <Name>User Preferences</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="98f72458-03a7-4193-9610-565439efcbc1">
+          <AttributeID>Phone Number</AttributeID>
+          <Name>Phone Number</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="110e3e9a-8261-42d1-8b2a-eb4acdc6b77b">
+          <AttributeID>Fax Number</AttributeID>
+          <Name>Fax Number</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bb2d1ffa-7fc4-4549-9b53-ad3f46091bb2">
+          <AttributeID>Email Address</AttributeID>
+          <Name>Email Address</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0917370f-59d0-42d2-88c6-e074668b9e15">
+          <AttributeID>Custom Fields</AttributeID>
+          <Name>Custom Fields</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4b824bca-fd63-413e-be86-de7df69ccc53">
+          <AttributeID>Other Languages</AttributeID>
+          <Name>Other Languages</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e15edb88-7b0d-4bfc-a92a-b6d29f2b0d97">
+          <AttributeID>Last Edited By 1</AttributeID>
+          <Name>Last Edited By 1</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8ae998f9-f877-40e1-a4cc-7369d1b506d2">
+          <AttributeID>Valid From</AttributeID>
+          <Name>Valid From</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7035f36e-64e8-4c9d-86d1-f6c7f6c910af">
+          <AttributeID>Valid To</AttributeID>
+          <Name>Valid To</Name>
+        </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
@@ -92,6 +211,283 @@
         </KeyColumn>
       </KeyColumns>
       <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6cfe76a6-5604-4bdc-8f06-2f605722a512">
+      <ID>Full Name</ID>
+      <Name>Full Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8e98524a-57f8-455f-b409-f009ad7c374b">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d46f946a-c93b-4a8d-8088-ad6486d6cb6a">
+            <TableID>Application_People</TableID>
+            <ColumnID>FullName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="842c13e1-00d7-4977-831e-7f2388ba0ff8">
+      <ID>Preferred Name</ID>
+      <Name>Preferred Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b2182a56-e782-4e0a-b7b0-9e228676f3ee">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="47519b04-6f46-4da9-a109-49d0d0141a44">
+            <TableID>Application_People</TableID>
+            <ColumnID>PreferredName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e6a3b6b6-a04a-408f-9b7f-02b722b27c6c">
+      <ID>Search Name</ID>
+      <Name>Search Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0d0c56ee-5aae-4353-88e1-a137b99a4b04">
+          <DataType>WChar</DataType>
+          <DataSize>101</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0ac130c2-db19-4deb-a3bb-bf3c79aa3bee">
+            <TableID>Application_People</TableID>
+            <ColumnID>SearchName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d09a1d9d-0533-48bb-b266-c272c0f15425">
+      <ID>Is Permitted To Logon</ID>
+      <Name>Is Permitted To Logon</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3c915c35-53a3-497a-a2d7-b583fd31ca0a">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="788ec75b-ee6c-43d8-afe6-7097b5f284bd">
+            <TableID>Application_People</TableID>
+            <ColumnID>IsPermittedToLogon</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4178fd2c-c215-4205-b969-2d3ac22a8169">
+      <ID>Logon Name</ID>
+      <Name>Logon Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ab8d4866-7b47-459f-94ab-38a17dc1b68c">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="32482c48-86c8-4e7e-a88b-d9d752457021">
+            <TableID>Application_People</TableID>
+            <ColumnID>LogonName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="94519a7a-b5b6-452d-b419-e4574f5c3693">
+      <ID>Is External Logon Provider</ID>
+      <Name>Is External Logon Provider</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="334f6388-72fe-4d71-9763-f653e18fca83">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e34d8403-8813-4e9a-815a-1f35d0768668">
+            <TableID>Application_People</TableID>
+            <ColumnID>IsExternalLogonProvider</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="33cfcd95-78a8-40eb-af5b-3d78a68791ce">
+      <ID>Is System User</ID>
+      <Name>Is System User</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="be6180ef-3c65-442d-827b-18a9b4dc0b9f">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="74c4c5bc-01b8-41f7-9028-22eda30570af">
+            <TableID>Application_People</TableID>
+            <ColumnID>IsSystemUser</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f619213c-be40-4d7b-86c8-0c62f4d2ff46">
+      <ID>Is Employee</ID>
+      <Name>Is Employee</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="91b6d1a8-4aae-4c39-9b57-fc8c277ac959">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c79ec0d8-6855-4615-9d1f-d8f960ba763b">
+            <TableID>Application_People</TableID>
+            <ColumnID>IsEmployee</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="740e9306-e74d-4f0d-adef-2e0d47b45d2b">
+      <ID>Is Salesperson</ID>
+      <Name>Is Salesperson</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="95c7a9e1-8854-484e-b119-26ec0bc7e5b5">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1bc81dae-3d6e-46d0-a62c-65a9188bf5b0">
+            <TableID>Application_People</TableID>
+            <ColumnID>IsSalesperson</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f93c0541-1355-45d2-b298-9471a2d01808">
+      <ID>User Preferences</ID>
+      <Name>User Preferences</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5a02b2ae-b39f-44bb-8c31-68d6205c14d7">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="26fd6c03-d7c8-4d1e-8b7c-decc01188cf1">
+            <TableID>Application_People</TableID>
+            <ColumnID>UserPreferences</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e6b43f01-538b-4bc0-bc13-e54e20e2a677">
+      <ID>Phone Number</ID>
+      <Name>Phone Number</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="168e8adf-b366-45f9-ab1a-1c129c482ad7">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fb84ee72-c98f-4680-9d7a-71532a38cb8c">
+            <TableID>Application_People</TableID>
+            <ColumnID>PhoneNumber</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="125c8f13-07b0-4b0f-a160-dd7c95c322b3">
+      <ID>Fax Number</ID>
+      <Name>Fax Number</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="af2d66bc-12e0-43e3-92bd-d0b6a9b25597">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6e6a50c1-67ba-4dd5-bfbe-96c87735487d">
+            <TableID>Application_People</TableID>
+            <ColumnID>FaxNumber</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7561c65c-8ed6-453e-b980-52116c8e6f75">
+      <ID>Email Address</ID>
+      <Name>Email Address</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bd5ec343-bba3-4149-a28e-d7f5eb3d4906">
+          <DataType>WChar</DataType>
+          <DataSize>256</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="60a4cf85-5db6-451f-8eaa-08e860eb91c8">
+            <TableID>Application_People</TableID>
+            <ColumnID>EmailAddress</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cb63d0cc-5195-46a8-97c8-a3c93fd3a0f6">
+      <ID>Custom Fields</ID>
+      <Name>Custom Fields</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b937a89f-9bb5-4c8a-b4b4-fdecc11c9564">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a8cebe5c-ed5e-4e8d-a1d1-cb33534b209e">
+            <TableID>Application_People</TableID>
+            <ColumnID>CustomFields</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="99af32a1-699e-42b4-9592-a210e147bf24">
+      <ID>Other Languages</ID>
+      <Name>Other Languages</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="506f12b9-74a8-4973-b326-f811652a27b0">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ffcafeca-ba3d-4962-87e6-2758596b4a34">
+            <TableID>Application_People</TableID>
+            <ColumnID>OtherLanguages</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d9a78ddd-be29-45e2-ac2e-c0a03eab41ea">
+      <ID>Last Edited By 1</ID>
+      <Name>Last Edited By 1</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f5c00d9e-5af1-40ca-be86-a99c708e2b17">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7b2b2286-a5ac-483d-a76b-4edec5628aa4">
+            <TableID>Application_People</TableID>
+            <ColumnID>LastEditedBy</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0395bebe-416d-4ef4-9821-eaa94c0bd77e">
+      <ID>Valid From</ID>
+      <Name>Valid From</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="50bc32be-9bfd-4480-aca4-7ddc7cc7a31f">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3336996f-6ee9-4c71-b098-9ab28dd897c1">
+            <TableID>Application_People</TableID>
+            <ColumnID>ValidFrom</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d0eb29a0-8fa5-48b7-ac2d-1c27ec1d5659">
+      <ID>Valid To</ID>
+      <Name>Valid To</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="307efc52-f8d2-4a86-a5c4-51d4d1d15794">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5d888d5f-69fc-45c7-aa29-06e66650520b">
+            <TableID>Application_People</TableID>
+            <ColumnID>ValidTo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>

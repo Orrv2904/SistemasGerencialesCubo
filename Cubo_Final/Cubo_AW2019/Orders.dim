@@ -6,6 +6,53 @@
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3911" scrolltop="-6007" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11800" y="16007" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Orders" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="5556" height="8731" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b41500001b220000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Sales_Orders" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-1280" top="-1300" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="2728" height="2765" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Sales_Orders_BackorderOrderID_Sales_Orders]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="1" sourceattachpoint="20" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="20" y="1065" />
+              <point x="-980" y="1065" />
+              <point x="-980" y="-1000" />
+              <point x="1148" y="-1000" />
+              <point x="1148" y="0" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,15 +68,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>-3911</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-6007</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -91,6 +138,46 @@
         <AttributeRelationship dwd:design-time-name="03e5f1c1-a0e4-46e5-8cc4-fbe60806e88a">
           <AttributeID>Contact Person ID</AttributeID>
           <Name>Contact Person ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1a0dd1fe-6466-4329-b9f3-545abd633a07">
+          <AttributeID>Order Date</AttributeID>
+          <Name>Order Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="55002646-4412-4468-93ab-b1d4055827d2">
+          <AttributeID>Expected Delivery Date</AttributeID>
+          <Name>Expected Delivery Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="dcfca2ea-b6fc-4396-9276-7af4d21f0b26">
+          <AttributeID>Customer Purchase Order Number</AttributeID>
+          <Name>Customer Purchase Order Number</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b2f6bef1-4fbf-4be5-a3a2-53dea34ae12e">
+          <AttributeID>Is Undersupply Backordered</AttributeID>
+          <Name>Is Undersupply Backordered</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ac14ec58-8a71-41ca-8d5b-2073db966bd7">
+          <AttributeID>Comments</AttributeID>
+          <Name>Comments</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a910c16f-793c-499f-a670-a2e37a974b93">
+          <AttributeID>Delivery Instructions</AttributeID>
+          <Name>Delivery Instructions</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9a78f637-9526-4dba-827e-16bed1dad7f1">
+          <AttributeID>Internal Comments</AttributeID>
+          <Name>Internal Comments</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="85221408-6e97-4502-adde-c714e618bcc8">
+          <AttributeID>Picking Completed When</AttributeID>
+          <Name>Picking Completed When</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="cb7b1cba-7256-46d1-bb5b-d4c6d9594233">
+          <AttributeID>Last Edited By 1</AttributeID>
+          <Name>Last Edited By 1</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="dea8ad49-fe23-4846-b414-6d4a991d3c21">
+          <AttributeID>Last Edited When</AttributeID>
+          <Name>Last Edited When</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
@@ -197,6 +284,157 @@
       </KeyColumns>
       <OrderBy>Key</OrderBy>
       <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8dd1ee93-67e6-4d83-b696-0061937df2c9">
+      <ID>Order Date</ID>
+      <Name>Order Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="10876765-f4c8-448e-9616-e3c8662eb312">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9d9ea277-df02-48e2-a406-c6cfd24488c8">
+            <TableID>Sales_Orders</TableID>
+            <ColumnID>OrderDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="237b8ff8-3a3d-48d4-8d36-b3467918dd33">
+      <ID>Expected Delivery Date</ID>
+      <Name>Expected Delivery Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f5472650-0841-4c59-937e-f1e615bc00c6">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7de646fb-08ca-4646-be18-3afb25464e6a">
+            <TableID>Sales_Orders</TableID>
+            <ColumnID>ExpectedDeliveryDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="69e555a5-55b4-4432-a21d-11f23a133ef2">
+      <ID>Customer Purchase Order Number</ID>
+      <Name>Customer Purchase Order Number</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7e10fe1d-1278-43f7-aa24-d8c33eca1d84">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="40334535-516b-4e9f-ae18-66e143236e9a">
+            <TableID>Sales_Orders</TableID>
+            <ColumnID>CustomerPurchaseOrderNumber</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9e34b2cd-a0ac-4ff3-8342-7093ae98efdb">
+      <ID>Is Undersupply Backordered</ID>
+      <Name>Is Undersupply Backordered</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7b9401fd-9b62-4754-ab78-3b73a6eb8174">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bf87dff1-773c-491a-a26a-9b0de1f5baa7">
+            <TableID>Sales_Orders</TableID>
+            <ColumnID>IsUndersupplyBackordered</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5d5051e3-5e36-47e9-89a0-b5273cd369f8">
+      <ID>Comments</ID>
+      <Name>Comments</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e915bcb4-326f-49bb-b021-e2302982e5cf">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6ef68e76-4c1b-4631-8449-d0121e50330d">
+            <TableID>Sales_Orders</TableID>
+            <ColumnID>Comments</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b9c1c38a-c8d3-4700-8a00-717ede00bf7d">
+      <ID>Delivery Instructions</ID>
+      <Name>Delivery Instructions</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="179f5fb9-5213-4912-8bf4-baa417cade76">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dd368877-cdfd-47e5-90af-2a41a5ed7c33">
+            <TableID>Sales_Orders</TableID>
+            <ColumnID>DeliveryInstructions</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="15d505c6-5cac-4725-9797-c7eac2bb72e7">
+      <ID>Internal Comments</ID>
+      <Name>Internal Comments</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ec7c42eb-a2a6-4e2c-8663-bdbefab455b6">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dc854702-664e-4289-8f62-c778dd938d03">
+            <TableID>Sales_Orders</TableID>
+            <ColumnID>InternalComments</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="97f77fd7-68ec-43cb-af42-3c4d183ea1f1">
+      <ID>Picking Completed When</ID>
+      <Name>Picking Completed When</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="27e9a57e-28e3-49f4-a773-69c2b573d742">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2716e453-528b-44c8-a5bb-b9b0e022d85a">
+            <TableID>Sales_Orders</TableID>
+            <ColumnID>PickingCompletedWhen</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="99968361-6dca-4d97-bee4-058857ec94aa">
+      <ID>Last Edited By 1</ID>
+      <Name>Last Edited By 1</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1ed6e4d5-0f26-48e3-8674-a60a37b92898">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0441c87d-7857-4edf-9c94-819cfd05c8d9">
+            <TableID>Sales_Orders</TableID>
+            <ColumnID>LastEditedBy</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0642464a-d142-46be-a03a-987a4f59baab">
+      <ID>Last Edited When</ID>
+      <Name>Last Edited When</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="388cbb92-b15f-483f-abce-35e62aefb381">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e3813d38-4dc8-4d8e-b1c7-bd7667f578a9">
+            <TableID>Sales_Orders</TableID>
+            <ColumnID>LastEditedWhen</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
