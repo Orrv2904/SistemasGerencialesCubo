@@ -6,87 +6,27 @@
     <Name>Cubo_AW2019.database</Name>
     <FullPath>Cubo_AW2019.database</FullPath>
   </Database>
-  <Cubes>
-    <ProjectItem>
-      <Name>Adventure Works LT2019.cube</Name>
-      <FullPath>Adventure Works LT2019.cube</FullPath>
-      <Dependencies>
-        <ProjectItem>
-          <Name>Adventure Works LT2019.partitions</Name>
-          <FullPath>Adventure Works LT2019.partitions</FullPath>
-        </ProjectItem>
-      </Dependencies>
-    </ProjectItem>
-  </Cubes>
-  <Dimensions>
-    <ProjectItem>
-      <Name>Sales Order Header.dim</Name>
-      <FullPath>Sales Order Header.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Product.dim</Name>
-      <FullPath>Product.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Sales Order Detail.dim</Name>
-      <FullPath>Sales Order Detail.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Product Category.dim</Name>
-      <FullPath>Product Category.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Product Model.dim</Name>
-      <FullPath>Product Model.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Customer.dim</Name>
-      <FullPath>Customer.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Address.dim</Name>
-      <FullPath>Address.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Customer Address.dim</Name>
-      <FullPath>Customer Address.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Product Description.dim</Name>
-      <FullPath>Product Description.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Product Model Product Description.dim</Name>
-      <FullPath>Product Model Product Description.dim</FullPath>
-    </ProjectItem>
-  </Dimensions>
   <DataSources>
     <ProjectItem>
-      <Name>Adventure Works LT2019.ds</Name>
-      <FullPath>Adventure Works LT2019.ds</FullPath>
+      <Name>Wide World Importers.ds</Name>
+      <FullPath>Wide World Importers.ds</FullPath>
     </ProjectItem>
   </DataSources>
-  <DataSourceViews>
-    <ProjectItem>
-      <Name>Adventure Works LT2019.dsv</Name>
-      <FullPath>Adventure Works LT2019.dsv</FullPath>
-    </ProjectItem>
-  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
       <Options>
         <ConnectionMappings>
           <ConfigurationSetting>
-            <Id>Adventure Works LT2019</Id>
-            <Name>Adventure Works LT2019</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=.;Integrated Security=SSPI;Initial Catalog=AdventureWorksLT2019</Value>
+            <Id>Wide World Importers</Id>
+            <Name>Wide World Importers</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=.;Integrated Security=SSPI;Initial Catalog=WideWorldImporters</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
           <ConfigurationSetting>
-            <Id>Adventure Works LT2019</Id>
-            <Name>Adventure Works LT2019</Name>
+            <Id>Wide World Importers</Id>
+            <Name>Wide World Importers</Name>
             <Value xsi:type="xsd:int">0</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>
