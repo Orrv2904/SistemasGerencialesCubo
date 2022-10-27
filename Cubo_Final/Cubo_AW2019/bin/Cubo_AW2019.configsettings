@@ -2,8 +2,8 @@
   <Database>
     <DataSources>
       <DataSource>
-        <ID>Adventure Works LT2019</ID>
-        <ConnectionString>Provider=SQLNCLI11.1;Data Source=.;Integrated Security=SSPI;Initial Catalog=AdventureWorksLT2019</ConnectionString>
+        <ID>Wide World Importers</ID>
+        <ConnectionString>Provider=SQLNCLI11.1;Data Source=.;Integrated Security=SSPI;Initial Catalog=WideWorldImporters</ConnectionString>
         <ImpersonationInfo>
           <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateServiceAccount</ImpersonationMode>
           <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
@@ -12,117 +12,109 @@
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>Sales Order Header</ID>
+        <ID>Buying Groups</ID>
       </Dimension>
       <Dimension>
-        <ID>Product</ID>
+        <ID>Customer Categories</ID>
       </Dimension>
       <Dimension>
-        <ID>Sales Order Detail</ID>
+        <ID>Customers</ID>
       </Dimension>
       <Dimension>
-        <ID>Product Category</ID>
+        <ID>Customer Transactions</ID>
       </Dimension>
       <Dimension>
-        <ID>Product Model</ID>
+        <ID>Invoice Lines</ID>
       </Dimension>
       <Dimension>
-        <ID>Customer</ID>
+        <ID>Invoices</ID>
       </Dimension>
       <Dimension>
-        <ID>Address</ID>
+        <ID>Orders</ID>
       </Dimension>
       <Dimension>
-        <ID>Customer Address</ID>
+        <ID>Special Deals</ID>
       </Dimension>
       <Dimension>
-        <ID>Product Description</ID>
+        <ID>Customer Categories 1</ID>
       </Dimension>
       <Dimension>
-        <ID>Product Model Product Description</ID>
+        <ID>Buying Groups 1</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
-        <ID>Adventure Works LT2019</ID>
+        <ID>Wide World Importers</ID>
         <MeasureGroups>
           <MeasureGroup>
-            <ID>Sales Order Detail</ID>
+            <ID>Customer Transactions</ID>
             <Partitions>
               <Partition>
-                <ID>Sales Order Detail</ID>
+                <ID>Customer Transactions</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Product</ID>
+            <ID>Invoice Lines</ID>
             <Partitions>
               <Partition>
-                <ID>Product</ID>
+                <ID>Invoice Lines</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Customer</ID>
+            <ID>Invoices</ID>
             <Partitions>
               <Partition>
-                <ID>Customer</ID>
+                <ID>Invoices</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Customer Address</ID>
+            <ID>Order Lines</ID>
             <Partitions>
               <Partition>
-                <ID>Customer Address</ID>
+                <ID>Order Lines</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Address</ID>
+            <ID>Special Deals</ID>
             <Partitions>
               <Partition>
-                <ID>Address</ID>
+                <ID>Special Deals</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Product Category</ID>
+            <ID>Customers</ID>
             <Partitions>
               <Partition>
-                <ID>Product Category</ID>
+                <ID>Customers</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Product Description</ID>
+            <ID>Customer Categories</ID>
             <Partitions>
               <Partition>
-                <ID>Product Description</ID>
+                <ID>Customer Categories</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Product Model</ID>
+            <ID>Orders</ID>
             <Partitions>
               <Partition>
-                <ID>Product Model</ID>
+                <ID>Orders</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Product Model Product Description</ID>
+            <ID>Buying Groups</ID>
             <Partitions>
               <Partition>
-                <ID>Product Model Product Description</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Sales Order Header</ID>
-            <Partitions>
-              <Partition>
-                <ID>Sales Order Header</ID>
+                <ID>Buying Groups</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>

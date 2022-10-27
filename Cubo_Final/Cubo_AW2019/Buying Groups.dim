@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9d11cac0-7340-4b25-b0a3-c72cc86d7141" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8c3a74ce-8c6f-4502-bcbe-8e9570b0258b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Buying Groups</ID>
   <Name>Buying Groups</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -42,45 +42,45 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="c1e5bf70-5a4a-431d-bace-d25a3802b064">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="63211778-98c5-49e3-b645-993e0a05342a">
     <DataSourceViewID>Wide World Importers</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="b08b4ffd-6046-4159-ada5-da33d55f1daa">
+  <ErrorConfiguration dwd:design-time-name="8cc52750-3474-4b50-9741-5e2459e6250e">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="33476237-361a-48ba-b934-afad72a78e23">
+    <Attribute dwd:design-time-name="e8ec0853-0e03-4769-af8d-678b4149f44a">
       <ID>Buying Group ID</ID>
       <Name>Buying Group ID</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="c7b9eb76-c067-4d55-8eef-fc3d51b8c725">
+        <KeyColumn dwd:design-time-name="25b98bb0-4089-4149-8a3d-d521a944aabf">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2dc429cf-3fa9-48c6-b1f5-05764d56aa7e">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="97563441-1d99-4420-a1b1-80a25051ce8d">
             <TableID>Sales_BuyingGroups</TableID>
             <ColumnID>BuyingGroupID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="ba477f60-4232-4b0f-a6b4-d1a7efe43608">
+        <AttributeRelationship dwd:design-time-name="02483100-6be3-4cbd-9489-d24d9688d314">
           <AttributeID>Buying Group Name</AttributeID>
           <Name>Buying Group Name</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="8fdcc2e9-9336-4f15-92f5-dcd99c26a45e">
+        <AttributeRelationship dwd:design-time-name="4cbef402-756d-44cc-acee-a9e895ef9728">
           <AttributeID>Last Edited By</AttributeID>
           <Name>Last Edited By</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="e79ec005-de3d-4dd6-b577-ffdde095a317">
+        <AttributeRelationship dwd:design-time-name="107655a5-8616-4a87-90a8-bc03ebf5f3e1">
           <AttributeID>Valid From</AttributeID>
           <Name>Valid From</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="ba003a95-e2ca-4960-8232-9b30ff66c91a">
+        <AttributeRelationship dwd:design-time-name="5c4785bb-b2dd-4352-b14d-f0fdf91a79d4">
           <AttributeID>Valid To</AttributeID>
           <Name>Valid To</Name>
         </AttributeRelationship>
@@ -89,14 +89,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="03fa47f4-650c-4659-b18c-ec17c6d541c6">
+    <Attribute dwd:design-time-name="1e162c43-8aa2-46a6-8250-6d17b57590e7">
       <ID>Buying Group Name</ID>
       <Name>Buying Group Name</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="8917a402-e78d-4520-8f41-abbcc3aa23f0">
+        <KeyColumn dwd:design-time-name="e359bbd9-cdca-4132-9e39-79363fee5d36">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="a2f73ba2-22c7-4b36-804b-65020e54b5e8">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bb680a61-6bb3-4f2a-8cec-7971106604e2">
             <TableID>Sales_BuyingGroups</TableID>
             <ColumnID>BuyingGroupName</ColumnID>
           </Source>
@@ -106,13 +106,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="d9155c9d-75da-4aeb-a849-52c4723002c2">
+    <Attribute dwd:design-time-name="0f0b2c8d-0a47-4a0f-913b-98078babdb81">
       <ID>Last Edited By</ID>
       <Name>Last Edited By</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="5c27214b-8b1f-4962-a067-6a0adf9feef5">
+        <KeyColumn dwd:design-time-name="26804366-1cdd-4507-87df-780a44b0b34b">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="8df503c5-87fc-4943-9c40-c22882b35c51">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="58ff59f2-8aa4-401a-89bc-cfc91fd5b4f9">
             <TableID>Sales_BuyingGroups</TableID>
             <ColumnID>LastEditedBy</ColumnID>
           </Source>
@@ -122,13 +122,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="474e5106-8122-4539-91c3-1853bf372274">
+    <Attribute dwd:design-time-name="a5523839-9ad3-4830-82ff-7b82afce3786">
       <ID>Valid From</ID>
       <Name>Valid From</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="af79701b-13c5-4231-8ce2-b4a6c86f6b4b">
+        <KeyColumn dwd:design-time-name="2d68c3ad-cc11-4169-9bb0-9249abe2936a">
           <DataType>Date</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="89716885-e222-4543-ad77-e9c9303660bf">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="95fa44de-9bcb-4c68-8d31-f5ac24c78730">
             <TableID>Sales_BuyingGroups</TableID>
             <ColumnID>ValidFrom</ColumnID>
           </Source>
@@ -138,13 +138,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="2f1ddab7-7498-451e-a7ba-044d51152526">
+    <Attribute dwd:design-time-name="e4a57d0d-0ab9-4375-b253-0a7b5d9f30dd">
       <ID>Valid To</ID>
       <Name>Valid To</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="ec0ec20f-b3f9-4cf5-95c7-3cd07ee4af7b">
+        <KeyColumn dwd:design-time-name="0f1b1dda-ff58-4f23-b6ed-3a7e00b72075">
           <DataType>Date</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="6b970a03-3c84-4e46-a18b-37c47eb096ff">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c5b8a1b0-c147-4680-a4af-4d5845bccfaf">
             <TableID>Sales_BuyingGroups</TableID>
             <ColumnID>ValidTo</ColumnID>
           </Source>
