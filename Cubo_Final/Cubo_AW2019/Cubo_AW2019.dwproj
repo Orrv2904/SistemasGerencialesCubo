@@ -6,6 +6,18 @@
     <Name>Cubo_AW2019.database</Name>
     <FullPath>Cubo_AW2019.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Wide World Importers.cube</Name>
+      <FullPath>Wide World Importers.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Wide World Importers.partitions</Name>
+          <FullPath>Wide World Importers.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>Buying Groups.dim</Name>
@@ -42,6 +54,14 @@
     <ProjectItem>
       <Name>Special Deals.dim</Name>
       <FullPath>Special Deals.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Customer Categories 1.dim</Name>
+      <FullPath>Customer Categories 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Buying Groups 1.dim</Name>
+      <FullPath>Buying Groups 1.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
