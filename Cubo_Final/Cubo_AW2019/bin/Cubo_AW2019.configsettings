@@ -2,8 +2,8 @@
   <Database>
     <DataSources>
       <DataSource>
-        <ID>Wide World Importers</ID>
-        <ConnectionString>Provider=SQLNCLI11.1;Data Source=.;Integrated Security=SSPI;Initial Catalog=WideWorldImporters</ConnectionString>
+        <ID>Bike Stores</ID>
+        <ConnectionString>Provider=SQLNCLI11.1;Data Source=.;Integrated Security=SSPI;Initial Catalog=BikeStores</ConnectionString>
         <ImpersonationInfo>
           <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateServiceAccount</ImpersonationMode>
           <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
@@ -12,88 +12,52 @@
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>State Provinces</ID>
+        <ID>Categories</ID>
       </Dimension>
       <Dimension>
-        <ID>People</ID>
+        <ID>Brands</ID>
       </Dimension>
       <Dimension>
-        <ID>Cities</ID>
+        <ID>Products</ID>
       </Dimension>
       <Dimension>
-        <ID>Payment Methods</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Countries</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Customers</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Delivery Methods</ID>
+        <ID>Stores</ID>
       </Dimension>
       <Dimension>
         <ID>Orders</ID>
       </Dimension>
       <Dimension>
-        <ID>Invoices</ID>
+        <ID>Staffs</ID>
       </Dimension>
       <Dimension>
-        <ID>Order Lines</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Special Deals</ID>
+        <ID>Customers</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
-        <ID>Wide World Importers</ID>
+        <ID>Bike Stores</ID>
         <MeasureGroups>
           <MeasureGroup>
-            <ID>Cities</ID>
+            <ID>Products</ID>
             <Partitions>
               <Partition>
-                <ID>Cities</ID>
+                <ID>Products</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Payment Methods</ID>
+            <ID>Stocks</ID>
             <Partitions>
               <Partition>
-                <ID>Payment Methods</ID>
+                <ID>Stocks</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>State Provinces</ID>
+            <ID>Order Items</ID>
             <Partitions>
               <Partition>
-                <ID>State Provinces</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Customers</ID>
-            <Partitions>
-              <Partition>
-                <ID>Customers</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Invoices</ID>
-            <Partitions>
-              <Partition>
-                <ID>Invoices</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Order Lines</ID>
-            <Partitions>
-              <Partition>
-                <ID>Order Lines</ID>
+                <ID>Order Items</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
@@ -106,34 +70,42 @@
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Special Deals</ID>
+            <ID>Staffs</ID>
             <Partitions>
               <Partition>
-                <ID>Special Deals</ID>
+                <ID>Staffs</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>People</ID>
+            <ID>Stores</ID>
             <Partitions>
               <Partition>
-                <ID>People</ID>
+                <ID>Stores</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Delivery Methods</ID>
+            <ID>Customers</ID>
             <Partitions>
               <Partition>
-                <ID>Delivery Methods</ID>
+                <ID>Customers</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Countries</ID>
+            <ID>Categories</ID>
             <Partitions>
               <Partition>
-                <ID>Countries</ID>
+                <ID>Categories</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Brands</ID>
+            <Partitions>
+              <Partition>
+                <ID>Brands</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>

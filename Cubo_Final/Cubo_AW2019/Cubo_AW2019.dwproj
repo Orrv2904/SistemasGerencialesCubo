@@ -8,72 +8,56 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>Wide World Importers.cube</Name>
-      <FullPath>Wide World Importers.cube</FullPath>
+      <Name>Bike Stores.cube</Name>
+      <FullPath>Bike Stores.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Wide World Importers.partitions</Name>
-          <FullPath>Wide World Importers.partitions</FullPath>
+          <Name>Bike Stores.partitions</Name>
+          <FullPath>Bike Stores.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>State Provinces.dim</Name>
-      <FullPath>State Provinces.dim</FullPath>
+      <Name>Categories.dim</Name>
+      <FullPath>Categories.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>People.dim</Name>
-      <FullPath>People.dim</FullPath>
+      <Name>Brands.dim</Name>
+      <FullPath>Brands.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Cities.dim</Name>
-      <FullPath>Cities.dim</FullPath>
+      <Name>Products.dim</Name>
+      <FullPath>Products.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Payment Methods.dim</Name>
-      <FullPath>Payment Methods.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Countries.dim</Name>
-      <FullPath>Countries.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Customers.dim</Name>
-      <FullPath>Customers.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Delivery Methods.dim</Name>
-      <FullPath>Delivery Methods.dim</FullPath>
+      <Name>Stores.dim</Name>
+      <FullPath>Stores.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Orders.dim</Name>
       <FullPath>Orders.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Invoices.dim</Name>
-      <FullPath>Invoices.dim</FullPath>
+      <Name>Staffs.dim</Name>
+      <FullPath>Staffs.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Order Lines.dim</Name>
-      <FullPath>Order Lines.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Special Deals.dim</Name>
-      <FullPath>Special Deals.dim</FullPath>
+      <Name>Customers.dim</Name>
+      <FullPath>Customers.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
-      <Name>Wide World Importers.ds</Name>
-      <FullPath>Wide World Importers.ds</FullPath>
+      <Name>Bike Stores.ds</Name>
+      <FullPath>Bike Stores.ds</FullPath>
     </ProjectItem>
   </DataSources>
   <DataSourceViews>
     <ProjectItem>
-      <Name>Wide World Importers.dsv</Name>
-      <FullPath>Wide World Importers.dsv</FullPath>
+      <Name>Bike Stores.dsv</Name>
+      <FullPath>Bike Stores.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
   <Configurations>
@@ -82,15 +66,15 @@
       <Options>
         <ConnectionMappings>
           <ConfigurationSetting>
-            <Id>Wide World Importers</Id>
-            <Name>Wide World Importers</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=.;Integrated Security=SSPI;Initial Catalog=WideWorldImporters</Value>
+            <Id>Bike Stores</Id>
+            <Name>Bike Stores</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=.;Integrated Security=SSPI;Initial Catalog=BikeStores</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
           <ConfigurationSetting>
-            <Id>Wide World Importers</Id>
-            <Name>Wide World Importers</Name>
+            <Id>Bike Stores</Id>
+            <Name>Bike Stores</Name>
             <Value xsi:type="xsd:int">0</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>
