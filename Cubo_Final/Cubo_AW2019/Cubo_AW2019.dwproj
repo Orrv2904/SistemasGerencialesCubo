@@ -6,12 +6,56 @@
     <Name>Cubo_AW2019.database</Name>
     <FullPath>Cubo_AW2019.database</FullPath>
   </Database>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Buying Groups.dim</Name>
+      <FullPath>Buying Groups.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Customer Categories.dim</Name>
+      <FullPath>Customer Categories.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Customers.dim</Name>
+      <FullPath>Customers.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Customer Transactions.dim</Name>
+      <FullPath>Customer Transactions.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Invoice Lines.dim</Name>
+      <FullPath>Invoice Lines.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Invoices.dim</Name>
+      <FullPath>Invoices.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Order Lines.dim</Name>
+      <FullPath>Order Lines.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Orders.dim</Name>
+      <FullPath>Orders.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Special Deals.dim</Name>
+      <FullPath>Special Deals.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>Wide World Importers.ds</Name>
       <FullPath>Wide World Importers.ds</FullPath>
     </ProjectItem>
   </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>Wide World Importers.dsv</Name>
+      <FullPath>Wide World Importers.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
