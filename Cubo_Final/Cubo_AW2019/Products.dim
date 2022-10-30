@@ -198,5 +198,28 @@
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
   </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="7903b37e-277f-4460-ae73-0adf892df02a">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="8871b461-d7c7-4ce9-a65e-a9bbef3d17bf">
+          <ID>Model Year</ID>
+          <Name>Model Year</Name>
+          <SourceAttributeID>Model Year</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="0dcfaf6e-f275-4d17-bb57-e872570757ee">
+          <ID>List Price</ID>
+          <Name>List Price</Name>
+          <SourceAttributeID>List Price</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="2fcec1c8-e84d-4afd-b7e4-fd4fad0fa7e7">
+          <ID>Product Name</ID>
+          <Name>Product Name</Name>
+          <SourceAttributeID>Product Name</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
   <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>
