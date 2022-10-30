@@ -1,0 +1,6 @@
+C:\Users\Omarr\Desktop\SistemasGerencialesCubo\BikeStoreDB\BikeStoreDB\bin\Debug\BikeStoreDB.dacpac
+C:\Users\Omarr\Desktop\SistemasGerencialesCubo\BikeStoreDB\BikeStoreDB\bin\Debug\BikeStoreDB.dll
+C:\Users\Omarr\Desktop\SistemasGerencialesCubo\BikeStoreDB\BikeStoreDB\bin\Debug\BikeStoreDB.pdb
+C:\Users\Omarr\Desktop\SistemasGerencialesCubo\BikeStoreDB\BikeStoreDB\obj\Debug\BikeStoreDB.sqlproj.AssemblyReference.cache
+C:\Users\Omarr\Desktop\SistemasGerencialesCubo\BikeStoreDB\BikeStoreDB\obj\Debug\BikeStoreDB.dll
+C:\Users\Omarr\Desktop\SistemasGerencialesCubo\BikeStoreDB\BikeStoreDB\obj\Debug\BikeStoreDB.pdb
