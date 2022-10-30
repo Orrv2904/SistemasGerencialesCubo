@@ -4,3 +4,7 @@ C:\Users\Omarr\Desktop\SistemasGerencialesCubo\BikeStoreDB\BikeStoreDB\bin\Debug
 C:\Users\Omarr\Desktop\SistemasGerencialesCubo\BikeStoreDB\BikeStoreDB\obj\Debug\BikeStoreDB.sqlproj.AssemblyReference.cache
 C:\Users\Omarr\Desktop\SistemasGerencialesCubo\BikeStoreDB\BikeStoreDB\obj\Debug\BikeStoreDB.dll
 C:\Users\Omarr\Desktop\SistemasGerencialesCubo\BikeStoreDB\BikeStoreDB\obj\Debug\BikeStoreDB.pdb
+C:\Users\Omarr\Desktop\SistemasGerencialesCubo\BikeStoreDB\BikeStoreDB\obj\Debug\Model.xml
+C:\Users\Omarr\Desktop\SistemasGerencialesCubo\BikeStoreDB\BikeStoreDB\obj\Debug\refactor.xml
+C:\Users\Omarr\Desktop\SistemasGerencialesCubo\BikeStoreDB\BikeStoreDB\obj\Debug\postdeploy.sql
+C:\Users\Omarr\Desktop\SistemasGerencialesCubo\BikeStoreDB\BikeStoreDB\obj\Debug\predeploy.sql

@@ -58,6 +58,6 @@
     <Folder Include="Properties" />
   </ItemGroup>
   <ItemGroup>
-    <PreDeploy Include="BikeStore.sql" />
+    <PostDeploy Include="BikeStoreScript.sql" />
   </ItemGroup>
 </Project>
