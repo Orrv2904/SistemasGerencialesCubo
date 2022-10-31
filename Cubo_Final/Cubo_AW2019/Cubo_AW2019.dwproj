@@ -40,12 +40,12 @@
       <FullPath>Orders.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Staffs.dim</Name>
-      <FullPath>Staffs.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>Customers.dim</Name>
       <FullPath>Customers.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Staffs.dim</Name>
+      <FullPath>Staffs.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>

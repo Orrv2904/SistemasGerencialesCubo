@@ -19,70 +19,70 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>9HHZrrS2eAyco46M8qTROI971O0=27/10/2022 11:50:1727/10/2022 11:50:17</TimeStamp>
+        <TimeStamp>3AV3xQO6Tw9vKfThYwPz/ur4h9Y=30/10/2022 18:28:1830/10/2022 18:28:18</TimeStamp>
         <ID>
           <String>Bike Stores</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>i0R2pwbIlIa3PGLowwxBdkck5Io=27/10/2022 11:50:2727/10/2022 11:50:27</TimeStamp>
+        <TimeStamp>NZh5xZfeEtq2wN8Ep3vWPganmUw=30/10/2022 18:58:1630/10/2022 18:54:11</TimeStamp>
         <ID>
           <String>Bike Stores</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>zOHxM18/ZSlDr8o3Q7uEm0Sm3qE=30/10/2022 10:33:3827/10/2022 11:50:41</TimeStamp>
+        <TimeStamp>xHCBwl9hBh7CuRqvpFfsXswFN00=30/10/2022 19:00:0630/10/2022 18:58:37</TimeStamp>
         <ID>
           <String>Categories</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Ok30gZ7XRTnaIAhG+qe+2b6mOyA=30/10/2022 10:36:3527/10/2022 11:50:41</TimeStamp>
+        <TimeStamp>6PEfTqJ9LIBzQLOL0CI/DlyqDIQ=30/10/2022 19:00:0630/10/2022 18:58:37</TimeStamp>
         <ID>
           <String>Brands</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>nVUjsOWJRBB3u10r/2mjOQo5llQ=30/10/2022 10:37:0927/10/2022 11:50:42</TimeStamp>
+        <TimeStamp>3Rrj7RD3ohuN44p89UyVGyIjITk=30/10/2022 19:00:0630/10/2022 18:58:37</TimeStamp>
         <ID>
           <String>Products</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>ylaXeP++cCejhX3E0AmN2f4bnCg=30/10/2022 10:36:3527/10/2022 11:50:42</TimeStamp>
+        <TimeStamp>9zrU62RrJI2qw8foW+w7i1TPvs4=30/10/2022 19:00:0630/10/2022 18:58:37</TimeStamp>
         <ID>
           <String>Stores</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>vegqxl9VQZK4gAAkKFf6XKwQCyY=30/10/2022 10:36:3527/10/2022 11:50:42</TimeStamp>
+        <TimeStamp>FrjF/IQoMlpLtSoD9a7S+ezmZpY=30/10/2022 19:00:0630/10/2022 18:58:37</TimeStamp>
         <ID>
           <String>Orders</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>gCPKXTVNU7B2ix+JVWM4CCj6NVs=30/10/2022 10:36:3527/10/2022 11:50:42</TimeStamp>
-        <ID>
-          <String>Staffs</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>XbXxqyQMoIkDixUqBjUX4lWePpM=30/10/2022 10:36:3527/10/2022 11:50:42</TimeStamp>
+        <TimeStamp>fyHwLx7V3+Z6s2t1897VEyKE+Hk=30/10/2022 19:00:0630/10/2022 18:58:37</TimeStamp>
         <ID>
           <String>Customers</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>qiw01XrBiHXcm4iWRgM+UIOWRhw=30/10/2022 19:00:0630/10/2022 18:58:37</TimeStamp>
+        <ID>
+          <String>Staffs</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>NjZBqyRtueeYsidrXAVu1IlFIvk=30/10/2022 10:37:0927/10/2022 11:50:41K3DqLIELbgvaAu6wGeA2aBEXkEc=27/10/2022 11:50:4227/10/2022 11:50:41</TimeStamp>
+        <TimeStamp>gPdDT6YMSYPEZZE3ZvR5paITvlE=30/10/2022 19:02:2730/10/2022 18:58:37BwTYS7hhsMKy6QUEToiW7gOdviQ=30/10/2022 18:58:3730/10/2022 18:58:37</TimeStamp>
         <ID>
           <String>Bike Stores</String>
         </ID>
@@ -99,5 +99,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2022-10-30T16:37:28.686667Z</LastDeployed>
+  <LastDeployed>2022-10-31T01:02:50.566667Z</LastDeployed>
 </DeploymentSnapshot>

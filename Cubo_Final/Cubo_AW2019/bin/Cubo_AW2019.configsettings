@@ -27,10 +27,10 @@
         <ID>Orders</ID>
       </Dimension>
       <Dimension>
-        <ID>Staffs</ID>
+        <ID>Customers</ID>
       </Dimension>
       <Dimension>
-        <ID>Customers</ID>
+        <ID>Staffs</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
@@ -62,10 +62,10 @@
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Orders</ID>
+            <ID>Customers</ID>
             <Partitions>
               <Partition>
-                <ID>Orders</ID>
+                <ID>Customers</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
@@ -78,18 +78,18 @@
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Stores</ID>
+            <ID>Orders</ID>
             <Partitions>
               <Partition>
-                <ID>Stores</ID>
+                <ID>Orders</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Customers</ID>
+            <ID>Stores</ID>
             <Partitions>
               <Partition>
-                <ID>Customers</ID>
+                <ID>Stores</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>

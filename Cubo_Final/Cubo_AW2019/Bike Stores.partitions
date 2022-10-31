@@ -1,17 +1,17 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="172cce47-b0be-46d6-a694-536c262a7234" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9f5fa46c-2b89-42bb-acac-cab231ae7ed1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Bike Stores</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>Products</ID>
       <Partitions>
-        <Partition dwd:design-time-name="ce055398-de63-48fc-bada-42cfca7f443a">
+        <Partition dwd:design-time-name="8d7c1c7c-a9d4-4ec9-b68d-1fc15643cf4e">
           <ID>Products</ID>
           <Name>Products</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ab003043-3251-48fb-9748-7b185eb58e68">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a868b21c-a9b4-4778-afa4-0e97be8d387f">
             <DataSourceViewID>Bike Stores</DataSourceViewID>
             <TableID>production_products</TableID>
           </Source>
@@ -24,14 +24,14 @@
     <MeasureGroup>
       <ID>Stocks</ID>
       <Partitions>
-        <Partition dwd:design-time-name="7cc57565-d35b-4f73-953f-a7ae1561e621">
+        <Partition dwd:design-time-name="ebb671fe-1c37-46df-b6da-3485dbbf5022">
           <ID>Stocks</ID>
           <Name>Stocks</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="f3bca0c5-d1b6-4da4-aaaa-0961ea10d0ef">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="b1fdd7c6-1fda-4eb0-aaf9-de42b1599559">
             <DataSourceViewID>Bike Stores</DataSourceViewID>
             <TableID>production_stocks</TableID>
           </Source>
@@ -44,14 +44,14 @@
     <MeasureGroup>
       <ID>Order Items</ID>
       <Partitions>
-        <Partition dwd:design-time-name="bcdf43a0-ce9d-45af-a68b-681867f80f8a">
+        <Partition dwd:design-time-name="57ff30d9-f3aa-4eb0-8a73-21be8bff8712">
           <ID>Order Items</ID>
           <Name>Order Items</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="283e30be-28da-46aa-b4fb-560c9624401e">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c1bf545c-4cc9-4f85-b640-69a82e3494ab">
             <DataSourceViewID>Bike Stores</DataSourceViewID>
             <TableID>sales_order_items</TableID>
           </Source>
@@ -62,76 +62,16 @@
       </Partitions>
     </MeasureGroup>
     <MeasureGroup>
-      <ID>Orders</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="855fc587-ab2f-4c63-b3af-7d6f9cb70495">
-          <ID>Orders</ID>
-          <Name>Orders</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1630e7a2-aef2-4129-a7d0-dc6372e0c254">
-            <DataSourceViewID>Bike Stores</DataSourceViewID>
-            <TableID>sales_orders</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
-      <ID>Staffs</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="f950ffdf-8be6-4736-9729-30ce30a2ce1e">
-          <ID>Staffs</ID>
-          <Name>Staffs</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="76b13ea4-95b5-4fae-b9fd-40c99ef4dc0b">
-            <DataSourceViewID>Bike Stores</DataSourceViewID>
-            <TableID>sales_staffs</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
-      <ID>Stores</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="983a0b09-6c66-4dd1-9421-f4d7995b695b">
-          <ID>Stores</ID>
-          <Name>Stores</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="76610db2-8b3f-4736-a547-274a0184e2b0">
-            <DataSourceViewID>Bike Stores</DataSourceViewID>
-            <TableID>sales_stores</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
       <ID>Customers</ID>
       <Partitions>
-        <Partition dwd:design-time-name="8faa4578-adfe-4856-9db9-0991f23705f1">
+        <Partition dwd:design-time-name="9aafcf58-055e-40b9-a8ac-bcb91207a204">
           <ID>Customers</ID>
           <Name>Customers</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e5a0f154-d5b4-4050-b945-015c90027c90">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="b248e498-0447-4a62-8a8e-52735a7d53fa">
             <DataSourceViewID>Bike Stores</DataSourceViewID>
             <TableID>sales_customers</TableID>
           </Source>
@@ -142,16 +82,76 @@
       </Partitions>
     </MeasureGroup>
     <MeasureGroup>
+      <ID>Staffs</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="657a25c4-ff03-448d-9ec6-784820190418">
+          <ID>Staffs</ID>
+          <Name>Staffs</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="7a51c99e-5283-48fb-b43b-2a30fb862f2a">
+            <DataSourceViewID>Bike Stores</DataSourceViewID>
+            <TableID>sales_staffs</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Orders</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="2d3d1d5a-1143-447d-842d-0766d31b337b">
+          <ID>Orders</ID>
+          <Name>Orders</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="af3c23f6-ea71-4363-8166-762a2ec50099">
+            <DataSourceViewID>Bike Stores</DataSourceViewID>
+            <TableID>sales_orders</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Stores</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="4d66ac60-5432-452b-a49d-f3a483d53334">
+          <ID>Stores</ID>
+          <Name>Stores</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="11c12feb-6498-4f14-8075-29ead9b559b2">
+            <DataSourceViewID>Bike Stores</DataSourceViewID>
+            <TableID>sales_stores</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
       <ID>Categories</ID>
       <Partitions>
-        <Partition dwd:design-time-name="1e07d15a-05fe-4e5e-b19d-49fd865ea767">
+        <Partition dwd:design-time-name="0962ea6a-804f-4957-b9d7-8e50bb52e2f9">
           <ID>Categories</ID>
           <Name>Categories</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="f53302a2-7474-4941-815a-5c4054146952">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="5d8fb5c4-477f-41c7-8565-2e0a5202493f">
             <DataSourceViewID>Bike Stores</DataSourceViewID>
             <TableID>production_categories</TableID>
           </Source>
@@ -164,14 +164,14 @@
     <MeasureGroup>
       <ID>Brands</ID>
       <Partitions>
-        <Partition dwd:design-time-name="d63eb377-7766-4e22-81a6-2a3980f514fe">
+        <Partition dwd:design-time-name="18418cf8-0b72-40c9-875b-6ee92cdc3068">
           <ID>Brands</ID>
           <Name>Brands</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1602c7e4-c881-4f0b-ba9f-1c5df38fad39">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3c9cd1b3-aa2f-4414-82c3-5e04eb11c22c">
             <DataSourceViewID>Bike Stores</DataSourceViewID>
             <TableID>production_brands</TableID>
           </Source>
