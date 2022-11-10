@@ -19,70 +19,70 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>3AV3xQO6Tw9vKfThYwPz/ur4h9Y=30/10/2022 18:28:1830/10/2022 18:28:18</TimeStamp>
+        <TimeStamp>3AV3xQO6Tw9vKfThYwPz/ur4h9Y=09/11/2022 23:20:2009/11/2022 23:20:20</TimeStamp>
         <ID>
           <String>Bike Stores</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>NZh5xZfeEtq2wN8Ep3vWPganmUw=30/10/2022 18:58:1630/10/2022 18:54:11</TimeStamp>
+        <TimeStamp>NZh5xZfeEtq2wN8Ep3vWPganmUw=09/11/2022 23:20:2009/11/2022 23:20:20</TimeStamp>
         <ID>
           <String>Bike Stores</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>xHCBwl9hBh7CuRqvpFfsXswFN00=30/10/2022 19:00:0630/10/2022 18:58:37</TimeStamp>
+        <TimeStamp>xHCBwl9hBh7CuRqvpFfsXswFN00=09/11/2022 23:20:2009/11/2022 23:20:20</TimeStamp>
         <ID>
           <String>Categories</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>6PEfTqJ9LIBzQLOL0CI/DlyqDIQ=30/10/2022 19:00:0630/10/2022 18:58:37</TimeStamp>
+        <TimeStamp>6PEfTqJ9LIBzQLOL0CI/DlyqDIQ=09/11/2022 23:20:2009/11/2022 23:20:20</TimeStamp>
         <ID>
           <String>Brands</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>3Rrj7RD3ohuN44p89UyVGyIjITk=30/10/2022 19:00:0630/10/2022 18:58:37</TimeStamp>
+        <TimeStamp>3Rrj7RD3ohuN44p89UyVGyIjITk=09/11/2022 23:20:2009/11/2022 23:20:20</TimeStamp>
         <ID>
           <String>Products</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>9zrU62RrJI2qw8foW+w7i1TPvs4=30/10/2022 19:00:0630/10/2022 18:58:37</TimeStamp>
+        <TimeStamp>9zrU62RrJI2qw8foW+w7i1TPvs4=09/11/2022 23:20:2009/11/2022 23:20:20</TimeStamp>
         <ID>
           <String>Stores</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>FrjF/IQoMlpLtSoD9a7S+ezmZpY=30/10/2022 19:00:0630/10/2022 18:58:37</TimeStamp>
+        <TimeStamp>FrjF/IQoMlpLtSoD9a7S+ezmZpY=09/11/2022 23:20:2009/11/2022 23:20:20</TimeStamp>
         <ID>
           <String>Orders</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>fyHwLx7V3+Z6s2t1897VEyKE+Hk=30/10/2022 19:00:0630/10/2022 18:58:37</TimeStamp>
+        <TimeStamp>fyHwLx7V3+Z6s2t1897VEyKE+Hk=09/11/2022 23:20:2009/11/2022 23:20:20</TimeStamp>
         <ID>
           <String>Customers</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>qiw01XrBiHXcm4iWRgM+UIOWRhw=30/10/2022 19:00:0630/10/2022 18:58:37</TimeStamp>
+        <TimeStamp>qiw01XrBiHXcm4iWRgM+UIOWRhw=09/11/2022 23:20:2009/11/2022 23:20:20</TimeStamp>
         <ID>
           <String>Staffs</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>uJs/8IL4SIyKKWwnt5PA0kMQD1s=07/11/2022 15:10:1830/10/2022 18:58:37BwTYS7hhsMKy6QUEToiW7gOdviQ=30/10/2022 18:58:3730/10/2022 18:58:37</TimeStamp>
+        <TimeStamp>zW1iTTKa/1wJdhUaLP/vazK2Qtk=09/11/2022 23:31:5409/11/2022 23:20:20BwTYS7hhsMKy6QUEToiW7gOdviQ=09/11/2022 23:20:2009/11/2022 23:20:20</TimeStamp>
         <ID>
           <String>Bike Stores</String>
         </ID>
@@ -90,7 +90,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>kGVeilIbsnrATzuDYlIaqkzBUhQ=24/10/2022 23:08:0124/10/2022 23:08:01</TimeStamp>
+      <TimeStamp>kGVeilIbsnrATzuDYlIaqkzBUhQ=09/11/2022 23:20:2009/11/2022 23:20:20</TimeStamp>
       <ID>
         <String>CuboFinal</String>
       </ID>
@@ -99,5 +99,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2022-11-07T21:12:58.323333Z</LastDeployed>
+  <LastDeployed>2022-11-10T05:32:00.266667Z</LastDeployed>
 </DeploymentSnapshot>
