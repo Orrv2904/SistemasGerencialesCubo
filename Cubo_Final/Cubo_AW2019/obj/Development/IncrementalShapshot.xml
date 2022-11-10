@@ -82,7 +82,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>97sBA7TRoG3ZugXd+TMQ1mAiAow=09/11/2022 23:39:4409/11/2022 23:20:20BwTYS7hhsMKy6QUEToiW7gOdviQ=09/11/2022 23:20:2009/11/2022 23:20:20</TimeStamp>
+        <TimeStamp>ZzJ3JMQ56y2ezjTeghyTxR2Nnxc=09/11/2022 23:48:1409/11/2022 23:20:20BwTYS7hhsMKy6QUEToiW7gOdviQ=09/11/2022 23:20:2009/11/2022 23:20:20</TimeStamp>
         <ID>
           <String>Bike Stores</String>
         </ID>
@@ -99,5 +99,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2022-11-10T05:39:48.96Z</LastDeployed>
+  <LastDeployed>2022-11-10T05:48:19.356667Z</LastDeployed>
 </DeploymentSnapshot>
