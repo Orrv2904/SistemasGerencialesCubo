@@ -3089,18 +3089,21 @@ If the CALCULATE command is deleted or modified, the data within the cube is aff
 You should edit this command only if you manually specify how the cube is aggregated.
 */
 CALCULATE; 
+CREATE MEMBER CURRENTCUBE.[Measures].Calculo_Facturas_Promedio
+ AS SUM([Measures].[Orders Count]), 
+VISIBLE = 1  ;  
 CREATE MEMBER CURRENTCUBE.[Measures].Calculo_Margen
  AS 1-[Measures].[Calculo_CostosTotales]/[Measures].[Calculo_Total_Ventas], 
-VISIBLE = 1  ; 
+VISIBLE = 1;  
 CREATE MEMBER CURRENTCUBE.[Measures].Calculo_Cantidad_Total
  AS SUM([Measures].[Quantity]), 
-VISIBLE = 1  ; 
+VISIBLE = 1;  
 CREATE MEMBER CURRENTCUBE.[Measures].Calculo_Total_Descuentos
  AS SUM([Measures].[Discount]), 
-VISIBLE = 1  ;      
+VISIBLE = 1;       
 CREATE MEMBER CURRENTCUBE.[Measures].Calculo_Total_Ventas
  AS SUM([Measures].[List Price - Order Items]), 
-VISIBLE = 1;   
+VISIBLE = 1;    
 CREATE MEMBER CURRENTCUBE.[Measures].Calculo_CostosTotales
  AS SUM([Measures].[List Price]), 
 VISIBLE = 1; </Text>
