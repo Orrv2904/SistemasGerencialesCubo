@@ -11,8 +11,8 @@
   DTS:LocaleID="3082"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="27"
-  DTS:VersionGUID="{E1536548-27C2-43DB-B93E-3FE70238044C}">
+  DTS:VersionBuild="29"
+  DTS:VersionGUID="{D685DBD8-A4E0-47BF-BB85-E5D349EC9446}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -5069,71 +5069,71 @@
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:s="clr-namespace:System;assembly=mscorlib">
         <NodeLayout
           Size="111,42"
           Id="Package\brands"
-          TopLeft="217,173" />
+          TopLeft="108.5,153.5" />
         <NodeLayout
           Size="127,42"
           Id="Package\categories"
-          TopLeft="373,173" />
+          TopLeft="264.5,153.5" />
         <NodeLayout
           Size="122,42"
           Id="Package\customer"
-          TopLeft="274,347" />
+          TopLeft="165.5,327.5" />
         <NodeLayout
           Size="104,42"
           Id="Package\order"
-          TopLeft="593,345" />
+          TopLeft="484.5,325.5" />
         <NodeLayout
           Size="133,42"
           Id="Package\order items"
-          TopLeft="429,348" />
+          TopLeft="320.5,328.5" />
         <NodeLayout
           Size="120,42"
           Id="Package\products"
-          TopLeft="525,172" />
+          TopLeft="416.5,152.5" />
         <NodeLayout
           Size="100,42"
           Id="Package\staff"
-          TopLeft="730,346" />
+          TopLeft="621.5,326.5" />
         <NodeLayout
           Size="108,42"
           Id="Package\stocks"
-          TopLeft="693,175" />
+          TopLeft="584.5,155.5" />
         <NodeLayout
           Size="107,42"
           Id="Package\stores"
-          TopLeft="878,346" />
+          TopLeft="769.5,326.5" />
         <AnnotationLayout
           Text="Production"
-          ParentId="Package"
+          ParentId="ff100fa5-8e78-47d9-a824-54220caa3338"
           FontInfo="{assembly:Null}"
           Size="98,40"
           Id="a8e6d8b9-0d36-4364-b7e6-03923b9c6ee7"
-          TopLeft="114,167" />
+          TopLeft="5.5,147.5" />
         <AnnotationLayout
           Text="Truncate data"
-          ParentId="Package"
+          ParentId="ff100fa5-8e78-47d9-a824-54220caa3338"
           FontInfo="{assembly:Null}"
           Size="101,40"
           Id="7191bb64-c9e0-4b25-bc81-a3b1ca44f346"
-          TopLeft="375,25" />
+          TopLeft="266.5,5.5" />
         <AnnotationLayout
           Text="sales"
-          ParentId="Package"
+          ParentId="ff100fa5-8e78-47d9-a824-54220caa3338"
           FontInfo="{assembly:Null}"
           Size="54,40"
           Id="fbefd70c-f32a-4215-bf64-77c429ec5eb7"
-          TopLeft="195,343" />
+          TopLeft="86.5,323.5" />
         <NodeLayout
           Size="163,42"
           Id="Package\Truncate table"
-          TopLeft="488,33" />
+          TopLeft="379.5,13.5" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="511.375,75">
+          TopLeft="402.875,55.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -5167,7 +5167,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="550.125,75">
+          TopLeft="441.625,55.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -5201,7 +5201,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="586.9375,75">
+          TopLeft="478.4375,55.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -5223,7 +5223,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
-          TopLeft="627.625,75">
+          TopLeft="519.125,55.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -5257,7 +5257,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
-          TopLeft="530.75,75">
+          TopLeft="422.25,55.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -5291,7 +5291,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 5]"
-          TopLeft="569.5,75">
+          TopLeft="461,55.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -5325,7 +5325,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 6]"
-          TopLeft="608.25,75">
+          TopLeft="499.75,55.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -5359,7 +5359,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 7]"
-          TopLeft="629.777777777778,75">
+          TopLeft="521.277777777778,55.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -5393,7 +5393,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 8]"
-          TopLeft="631.5,75">
+          TopLeft="523,55.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -5425,6 +5425,40 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <GroupLayout
+          Text="Bike Store Data Warehouse "
+          ParentId="Package"
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="882,426"
+          Size="882,469"
+          Id="ff100fa5-8e78-47d9-a824-54220caa3338"
+          TopLeft="108.5,5.5">
+          <GroupLayout.ChildrenIds>
+            <s:String>Package\brands</s:String>
+            <s:String>Package\categories</s:String>
+            <s:String>Package\customer</s:String>
+            <s:String>Package\order</s:String>
+            <s:String>Package\order items</s:String>
+            <s:String>Package\products</s:String>
+            <s:String>Package\staff</s:String>
+            <s:String>Package\stocks</s:String>
+            <s:String>Package\stores</s:String>
+            <s:String>a8e6d8b9-0d36-4364-b7e6-03923b9c6ee7</s:String>
+            <s:String>7191bb64-c9e0-4b25-bc81-a3b1ca44f346</s:String>
+            <s:String>fbefd70c-f32a-4215-bf64-77c429ec5eb7</s:String>
+            <s:String>Package\Truncate table</s:String>
+            <s:String>Package.PrecedenceConstraints[Constraint]</s:String>
+            <s:String>Package.PrecedenceConstraints[Constraint 1]</s:String>
+            <s:String>Package.PrecedenceConstraints[Constraint 2]</s:String>
+            <s:String>Package.PrecedenceConstraints[Constraint 3]</s:String>
+            <s:String>Package.PrecedenceConstraints[Constraint 4]</s:String>
+            <s:String>Package.PrecedenceConstraints[Constraint 5]</s:String>
+            <s:String>Package.PrecedenceConstraints[Constraint 6]</s:String>
+            <s:String>Package.PrecedenceConstraints[Constraint 7]</s:String>
+            <s:String>Package.PrecedenceConstraints[Constraint 8]</s:String>
+          </GroupLayout.ChildrenIds>
+        </GroupLayout>
       </GraphLayout>
     </LayoutInfo>
   </Package>
