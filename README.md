@@ -1,5 +1,5 @@
 # SistemasGerencialesCubo
-Proyecto Final de Curso
+BikeStore Data Science
 ---
 Welcome to the SistemasGerencialesCubo wiki!
 
