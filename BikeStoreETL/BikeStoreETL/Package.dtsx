@@ -11,8 +11,8 @@
   DTS:LocaleID="3082"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="29"
-  DTS:VersionGUID="{D685DBD8-A4E0-47BF-BB85-E5D349EC9446}">
+  DTS:VersionBuild="33"
+  DTS:VersionGUID="{CAA26FEB-377D-4395-B4F8-2C355F14E150}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -2887,12 +2887,6 @@
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\products\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[product_id]"
-                      cachedDataType="i4"
-                      cachedName="product_id"
-                      externalMetadataColumnId="Package\products\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[product_id]"
-                      lineageId="Package\products\OLE DB Source.Outputs[OLE DB Source Output].Columns[product_id]" />
-                    <inputColumn
                       refId="Package\products\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[product_name]"
                       cachedCodepage="1252"
                       cachedDataType="str"
@@ -2900,18 +2894,6 @@
                       cachedName="product_name"
                       externalMetadataColumnId="Package\products\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[product_name]"
                       lineageId="Package\products\OLE DB Source.Outputs[OLE DB Source Output].Columns[product_name]" />
-                    <inputColumn
-                      refId="Package\products\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[brand_id]"
-                      cachedDataType="i4"
-                      cachedName="brand_id"
-                      externalMetadataColumnId="Package\products\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[brand_id]"
-                      lineageId="Package\products\OLE DB Source.Outputs[OLE DB Source Output].Columns[brand_id]" />
-                    <inputColumn
-                      refId="Package\products\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[category_id]"
-                      cachedDataType="i4"
-                      cachedName="category_id"
-                      externalMetadataColumnId="Package\products\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[category_id]"
-                      lineageId="Package\products\OLE DB Source.Outputs[OLE DB Source Output].Columns[category_id]" />
                     <inputColumn
                       refId="Package\products\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[model_year]"
                       cachedDataType="i2"
@@ -2926,6 +2908,24 @@
                       cachedScale="2"
                       externalMetadataColumnId="Package\products\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[list_price]"
                       lineageId="Package\products\OLE DB Source.Outputs[OLE DB Source Output].Columns[list_price]" />
+                    <inputColumn
+                      refId="Package\products\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[product_id]"
+                      cachedDataType="i4"
+                      cachedName="product_id"
+                      externalMetadataColumnId="Package\products\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[product_id]"
+                      lineageId="Package\products\OLE DB Source.Outputs[OLE DB Source Output].Columns[product_id]" />
+                    <inputColumn
+                      refId="Package\products\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[category_id]"
+                      cachedDataType="i4"
+                      cachedName="category_id"
+                      externalMetadataColumnId="Package\products\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[category_id]"
+                      lineageId="Package\products\OLE DB Source.Outputs[OLE DB Source Output].Columns[category_id]" />
+                    <inputColumn
+                      refId="Package\products\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[brand_id]"
+                      cachedDataType="i4"
+                      cachedName="brand_id"
+                      externalMetadataColumnId="Package\products\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[brand_id]"
+                      lineageId="Package\products\OLE DB Source.Outputs[OLE DB Source Output].Columns[brand_id]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -5070,6 +5070,27 @@
     <LayoutInfo>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:s="clr-namespace:System;assembly=mscorlib">
+        <AnnotationLayout
+          Text="Production"
+          ParentId="ff100fa5-8e78-47d9-a824-54220caa3338"
+          FontInfo="{assembly:Null}"
+          Size="98,40"
+          Id="a8e6d8b9-0d36-4364-b7e6-03923b9c6ee7"
+          TopLeft="5.5,147.5" />
+        <AnnotationLayout
+          Text="Truncate data"
+          ParentId="ff100fa5-8e78-47d9-a824-54220caa3338"
+          FontInfo="{assembly:Null}"
+          Size="101,40"
+          Id="7191bb64-c9e0-4b25-bc81-a3b1ca44f346"
+          TopLeft="266.5,5.5" />
+        <AnnotationLayout
+          Text="sales"
+          ParentId="ff100fa5-8e78-47d9-a824-54220caa3338"
+          FontInfo="{assembly:Null}"
+          Size="54,40"
+          Id="fbefd70c-f32a-4215-bf64-77c429ec5eb7"
+          TopLeft="86.5,323.5" />
         <NodeLayout
           Size="111,42"
           Id="Package\brands"
@@ -5106,27 +5127,6 @@
           Size="107,42"
           Id="Package\stores"
           TopLeft="769.5,326.5" />
-        <AnnotationLayout
-          Text="Production"
-          ParentId="ff100fa5-8e78-47d9-a824-54220caa3338"
-          FontInfo="{assembly:Null}"
-          Size="98,40"
-          Id="a8e6d8b9-0d36-4364-b7e6-03923b9c6ee7"
-          TopLeft="5.5,147.5" />
-        <AnnotationLayout
-          Text="Truncate data"
-          ParentId="ff100fa5-8e78-47d9-a824-54220caa3338"
-          FontInfo="{assembly:Null}"
-          Size="101,40"
-          Id="7191bb64-c9e0-4b25-bc81-a3b1ca44f346"
-          TopLeft="266.5,5.5" />
-        <AnnotationLayout
-          Text="sales"
-          ParentId="ff100fa5-8e78-47d9-a824-54220caa3338"
-          FontInfo="{assembly:Null}"
-          Size="54,40"
-          Id="fbefd70c-f32a-4215-bf64-77c429ec5eb7"
-          TopLeft="86.5,323.5" />
         <NodeLayout
           Size="163,42"
           Id="Package\Truncate table"
@@ -5435,6 +5435,9 @@
           Id="ff100fa5-8e78-47d9-a824-54220caa3338"
           TopLeft="108.5,5.5">
           <GroupLayout.ChildrenIds>
+            <s:String>a8e6d8b9-0d36-4364-b7e6-03923b9c6ee7</s:String>
+            <s:String>7191bb64-c9e0-4b25-bc81-a3b1ca44f346</s:String>
+            <s:String>fbefd70c-f32a-4215-bf64-77c429ec5eb7</s:String>
             <s:String>Package\brands</s:String>
             <s:String>Package\categories</s:String>
             <s:String>Package\customer</s:String>
@@ -5444,9 +5447,6 @@
             <s:String>Package\staff</s:String>
             <s:String>Package\stocks</s:String>
             <s:String>Package\stores</s:String>
-            <s:String>a8e6d8b9-0d36-4364-b7e6-03923b9c6ee7</s:String>
-            <s:String>7191bb64-c9e0-4b25-bc81-a3b1ca44f346</s:String>
-            <s:String>fbefd70c-f32a-4215-bf64-77c429ec5eb7</s:String>
             <s:String>Package\Truncate table</s:String>
             <s:String>Package.PrecedenceConstraints[Constraint]</s:String>
             <s:String>Package.PrecedenceConstraints[Constraint 1]</s:String>
@@ -5932,7 +5932,7 @@
     design-time-name="Package\order items">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="150,42"
           Id="Package\order items\OLE DB Source"
@@ -5976,9 +5976,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -6012,9 +6010,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -6056,6 +6052,10 @@
           Id="Package\products\OLE DB Source"
           TopLeft="175,127" />
         <NodeLayout
+          Size="171,42"
+          Id="Package\products\OLE DB Destination"
+          TopLeft="378,341" />
+        <NodeLayout
           Size="141,42"
           Id="Package\products\Copy Column"
           TopLeft="261,209" />
@@ -6093,10 +6093,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="171,42"
-          Id="Package\products\OLE DB Destination"
-          TopLeft="378,341" />
         <EdgeLayout
           Id="Package\products.Paths[Copy Column Output]"
           TopLeft="331.5,251">
@@ -6134,11 +6130,37 @@
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\products\OLE DB Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\products\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\staff">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="150,42"
           Id="Package\staff\OLE DB Source"
@@ -6182,7 +6204,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -6216,7 +6240,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -6473,32 +6499,6 @@
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\stores\OLE DB Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\products\OLE DB Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\products\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
