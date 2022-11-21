@@ -3110,10 +3110,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].Calculo_Total_Descuentos
 VISIBLE = 1;          
 CREATE MEMBER CURRENTCUBE.[Measures].Calculo_Total_Ventas
  AS SUM([Measures].[List Price - Order Items]), 
-VISIBLE = 1; 
-CREATE MEMBER CURRENTCUBE.[Measures].CalculoJeminson
- AS SUM([Measures].[List Price - Order Items]), 
-VISIBLE = 1  ;       
+VISIBLE = 1;       
 CREATE MEMBER CURRENTCUBE.[Measures].Calculo_CostosTotales
  AS SUM([Measures].[List Price]), 
 VISIBLE = 1; </Text>
