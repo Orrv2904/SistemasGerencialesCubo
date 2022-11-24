@@ -1,7 +1,7 @@
 # SistemasGerencialesCubo
 BikeStore Data Science
 ---
-Welcome to the SistemasGerencialesCubo wiki!
+Welcome to the SistemasGerencialesCubo!
 
 Primeramente se tiene que crear el proyecto de multidimensional de mineria de datos en VSTUDIO.
 
